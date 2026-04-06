@@ -167,7 +167,7 @@ Az **OPEN** kategóriába esik az a drón, ami
 A **SPECIFIC** kategóriába esik az a drón, amire igaz bármelyik az alábbiak közül:
 
 - Nehezebb mint 25 kg
-- 120 méter AGL feletti agasságban vagy speciális légtérben történő reülés
+- 120 méter AGL feletti agasságban vagy speciális légtérben történő repülés
 - BVLOS repülés
 
 A **CERTIFIED** ategóriába esik az a drón, amire igaz bármelyik az alábbiak közül:
