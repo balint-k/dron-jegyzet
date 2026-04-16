@@ -340,7 +340,10 @@ Ezek mellé a 120 méteres magassági korlátozás is vonatkozik a drónra, amel
 ![Alt text](./Kepek/A3.png)
 
 
-## Repülés adminisztráció és alap szabályok
+## Adminisztráció és alap szabályok
+
+Ebben a fejezetben a repülési szabályzó szervek felépülésével és egymás alá és fölé rendeltségével, illetve a repülséhez szükséges képesítésekkel foglalkozunk.
+
 
 ## Légterek és korlátozások
 
