@@ -205,11 +205,66 @@ Ahhoz hogy egy terméket el lehessen adni az EU-ban egy "CE" jelöléssel kell r
 
 Az hogy milyen drónt vegyünk nagyban függ a felhasználási feltételtől (használati mátrix), például hogy közel akarunk-e repülni emberekhez vagy nem.
 
-- C0 kategória: nem kizárható, hogy nem tájékoztatott emberek (Uninvolved person) felett is elrepülnénk. A drón tömege kevesebb mint 250 gramm lehet.
-- C1 kategória: biztos, hogy nem fogunk nem tájékoztatott emberek (uninvolved person) felett repülni. A drón tömege kevesebb mint 900 gramm lehet.
-- C2 kategória abban az esetben, ha biztosít
+- C0 kategória: nem kizárható, hogy nem tájékoztatott emberek (Uninvolved person) felett is elrepülnénk.
+- C1 kategória: biztos, hogy nem fogunk nem tájékoztatott emberek (uninvolved person) felett repülni. 
+- C2 kategória: nem tájékoztatott emberektől (uninvolved person) horizontálisan 30 méterre (lassú repülés módban 5 méterre) történő repülés. A távolságnak mindig megfigyelhetőnek (observable) kell lennie.
+- C3 és C4 esetén nem lehet a közelben nem tájékoztatott ember, emellett 150 méterre kell repülni ipari létesítményektől, épületektől és infrastruktúrűtól.
 
-### Műszaki osztályok
+Az EASA meghatároz még C5 és C6 kategóriákat is, de ezek nem számítanak az OPEN kategóriában.
+
+#### Sebesség korlátok
+
+C0 és C1 kategória esetén maximális sebesség van meghatározva, ami 19 m/s. Ezt a sebességkorlátot azért számolták ki, hogy ezen kategóriájú drónok egy véletlen ütközés esetén ne okozzanak súlyos sérüléseket még.
+
+C2, C3 és C4 kategóriájú drónok esetén nincs sebességkorlátozás, mert ezen drónok annyival nehezebbek, hogy akármilyen ütközés súlyos sérülést tudna okozni.
+
+Ezen okokból kifolyólag csak C0 és C1 kategóriájú drónok reptethetőek emberek között.
+
+#### Magasság
+
+A C0 kategóriájú drónokba be van építve egy funkció ami megakadályozza, hogy 120 méternél magasabbra szálljanak fel. Ez nem zárja ki teljesen a légtér sértés kockázatát, viszot segít megakadályozni a magasságkorlát megszegését.
+
+A C1, C2 és C3 drónokban állítható ez a beállítás, például egy model-repülőgép légtérben vagy ha erre speciális engedélyt kap a pilóta.
+
+Viszont a beépített maximális korlát miatt a C1, C2 és C3 típusú drónokat el kell látni egy magasságmérővel, amelyet a pilóta folyamatosan figyelhet. Meg kell említeni, hogy a magasságmérőnek van egy pontatlansága, illetve a felszín egyenetlensége miatt megeshet, hogy a magasságmérő egy 120 méter alatti értéket mutat, amíg a drón már 120 méter felett repül
+
+#### Azonosítás
+
+A C1, C2 és C3 drónoknak egy távoli azonosítást lehetővé tevő funkcióval, ami lehetővé teszi, hogy a földről meg lehessen határozni, hogy milyen drón repül a légtérben, hol található a pilóta, illetve ki a pilóta. 
+
+Az alábbi adatokat köldi el:
+- pilóta datai
+- azonosító szám
+- drón pozíció
+- pilóta pozíció
+- sebesség
+- magasság
+
+Ezért tartsd észben, hogy nem névtelenül repülsz, amikor megnézel vagy lefilemzel egy területet kamerával.
+
+#### Helymeghatározás
+
+Ha a drón fel van szerelve helymeghatározással, akkor automatikusan összeveti a helyzetét a különböző hivatali szervek által megadott légterekkel. Ha a légtér tiltott terület, akkor erről értesítést küld a felhasználónak.
+
+A virtuális kerítés (geo-fencing) funkció annyival szigorúbb, hogy nem csak értesítést küld a tiltott légtérről, hanem megakadályozza, hogy egy ilyen területre berepüljön a drón
+
+C1, C2 és C3 drónok számára kötelező a helymeghatározás, viszont a virtuális kerítés nem kötelező (viszont be lehet építeni, így ne lepődjünk meg).
+
+Összefoglalva az alábbi táblázatban látható
+
+![Alt text](./Kepek/dronok.svg)
+
+Láthatjuk, hogy C4 esetén megengedőbbek a szabályok. Ez azért van, mert a C4 egy gyújtő kategória a régebbi drónok esetére, például ha van egy 3 kg nehéz drónod, ami a súlya alapján C2 kategória lenne, így jogósult lenne az emberek közeli repülésre (A2), de nincsen helymeghatározója, így C4 kategóriába kerül, amivel csak A3 repülésre lehet használni.
+
+### Repülés kategóriák
+
+#### A1
+
+#### A2
+
+#### A3
+
+
 
 ## Repülés adminisztráció és alap szabályok
 
