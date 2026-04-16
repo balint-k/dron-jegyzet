@@ -197,6 +197,10 @@ Ha adott, hogy milyen repülést végeznél --> meg van szabva, milyen drónokka
 
 ![Alt text](./Kepek/open_matrix.svg)
 
+Adott repülés típus esetén csak adott képesítésű személy repülhet adott típusú drónkkal. A típusokról a következőkben lesz szó.
+
+![Alt text](./Kepek/besorolas.svg)
+
 ### Műszaki kategóriák
 
 Ahhoz hogy egy terméket el lehessen adni az EU-ban egy "CE" jelöléssel kell rendelkezni, amely azt mutatja meg, hogy a termék megfelel az európai szabványoknak. A CE mellett a drónoknak rendelkeznie kell egy osztály jelölő jellel, amely megmutatja, hogy a C0 - C4 kategóriák közül melyikbe tartozik. Ezek nélkül nem repülhet egy drón.
@@ -258,12 +262,35 @@ Láthatjuk, hogy C4 esetén megengedőbbek a szabályok. Ez azért van, mert a C
 
 ### Repülés kategóriák
 
-#### A1
+#### A1 - emberek közelében
+
+Ennek a kategóriának van a legkevesebb szabálya. Lehetőség van akár sűrű embertömeg felett is repülni (de nem tömeg felett! Igen, ez egy kicsit megtévesztő, gondolj arra hogy tüntetés vs egy focimeccs). 
+
+C0 és C1 kategóriájú drón végezhet ilyen repülést. 
+
+C1 drón esetén a pilótának meg kell vizsgálni a területet ahol a repülni fog és meg kell győzödnie, hogy nem bevont / tájékoztatott ember (uninvolved person) felett nem fog repülni.
+
+Ezen vizsgálat során az alábbiakat kell figyelemmbe venni és értékelni
+- A szituáció a földön (útak, járdák, bicikli út, merre vannak emberek, etc.)
+- Lehetőségek a terület biztosítására
+- a napszak
+
+Ha véletlen egy járókelő felett repülönk, törekedjünk, hogy minél kevesebb időt repüljünk felette. 
+
+Minden esetben a pilóta látómezején belül kell lennie a drónnak, és nem repülhet magasabbra mint 120 méter.
+
+C0 kategóriájú drónnal, illetve házi építésű, 250 grammnál könnyebb drón esetén megengedett az emberek feletti repülés extrém óvatossággal. Ennek ellenére kerüljük ezt, ha tudjuk.
+
+
+![Alt text](./Kepek/A1.png)
 
 #### A2
 
+![Alt text](./Kepek/A2.png)
+
 #### A3
 
+![Alt text](./Kepek/A3.png)
 
 
 ## Repülés adminisztráció és alap szabályok
