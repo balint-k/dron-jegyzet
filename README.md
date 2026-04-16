@@ -114,7 +114,7 @@ Minden olyan dolog, ami nem szükséges ahhoz hogy műkődjön a drón. Motorok,
 
 Az UAS kifejezés letakaraja magát a drónt, viszont mivel rendszer, ezért bele tartozik például az irányítás is.
 
-### Nem tájékoztatott emberek/nem bevont emberek (Univoldved persons)
+### Nem tájékoztatott emberek/nem bevont emberek (Uninvolved persons)
 
 Azok az emberek, akik nem használnak drónt, és/vagy nem tudnak a drónhasználat lépéseiről és szabályairól (egységsugarú ember). Az nem lényeges, hogy ki vannak-e téve közvetlen vagy közvetve a drón repülés hatásainak vagy nem. 
 
@@ -194,6 +194,20 @@ A repülés okozta kockázatok több tényezőn alapulnak, a fő tényező nyilv
 
 Ha adott milyen drónnal repülnél --> meg van szabva, hogy milyen fajta repülést végezhetsz.
 Ha adott, hogy milyen repülést végeznél --> meg van szabva, milyen drónokkal teheted
+
+![Alt text](./Kepek/open_matrix.svg)
+
+### Műszaki kategóriák
+
+Ahhoz hogy egy terméket el lehessen adni az EU-ban egy "CE" jelöléssel kell rendelkezni, amely azt mutatja meg, hogy a termék megfelel az európai szabványoknak. A CE mellett a drónoknak rendelkeznie kell egy osztály jelölő jellel, amely megmutatja, hogy a C0 - C4 kategóriák közül melyikbe tartozik. Ezek nélkül nem repülhet egy drón.
+
+![Alt text](./Kepek/CE.jpg)
+
+Az hogy milyen drónt vegyünk nagyban függ a felhasználási feltételtől (használati mátrix), például hogy közel akarunk-e repülni emberekhez vagy nem.
+
+- C0 kategória: nem kizárható, hogy nem tájékoztatott emberek (Uninvolved person) felett is elrepülnénk. A drón tömege kevesebb mint 250 gramm lehet.
+- C1 kategória: biztos, hogy nem fogunk nem tájékoztatott emberek (uninvolved person) felett repülni. A drón tömege kevesebb mint 900 gramm lehet.
+- C2 kategória abban az esetben, ha biztosít
 
 ### Műszaki osztályok
 
