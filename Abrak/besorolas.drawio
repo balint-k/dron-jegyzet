@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="tAumzTRAqwZPbKx922nk" name="Page-1">
+        <mxGraphModel dx="519" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="A1&lt;br&gt;Emberek közelében" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="110" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="A2&lt;br&gt;Biztonságos közelben" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="110" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="A3&lt;br&gt;Emberektől távol" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="110" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="C0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="170" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="C1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="220" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="C2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="270" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="C3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="320" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="C4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="370" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Nem kell képesítés" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="170" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Tilos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="270" width="110" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Tilos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="320" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Elméleti és gyakorlati vizsga" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="270" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Online tanfolyam és&amp;nbsp; vizsga" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="220" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;span style=&quot;color: rgb(240, 240, 240);&quot;&gt;Online tanfolyam és&amp;nbsp; vizsga&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="270" width="110" height="140" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
