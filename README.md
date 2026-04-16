@@ -344,6 +344,23 @@ Ezek mellé a 120 méteres magassági korlátozás is vonatkozik a drónra, amel
 
 Ebben a fejezetben a repülési szabályzó szervek felépülésével és egymás alá és fölé rendeltségével, illetve a repülséhez szükséges képesítésekkel foglalkozunk.
 
+### EASA
+
+Az Európai Repülésbiztonsági Ügynökség (European Aviation Safety Agency - EASA) egy EU-s hivatal amelynek a fő feladata a repüléshez kapcsolódó szabályok és törvények kezelése, létrehozása, stb. Az egész civilizált európa a tagja. (EU + UK, Norvégia, stb stb)
+
+![Alt text](./Kepek/EASA.png)
+
+Az EASA a törvény tervezeteket nyilvánossá teszi. Ezeket a nemzeti légügyi hatóságokhoz, illetve légügyi képviselők tudják kommentelni, illetve javaslatokat tenni.
+
+Ezek után az EASA a tervezetet az EU parlament és az EU tanács elő küldi, amelyek ha elfogadják azonnal az összes EU tagállamban validdá teszik.
+
+A nemzeti eltérések nem lehetségesek, csak pár dologban hagy az EASA teret a nemezti szabályozásnak, mint például drónok esetén a különböző légterek kijelőlése, vagy a repülésért felelős szerv kijelőlése.
+
+EU-n kivüli országok számára idő lehet mire nemzeti törvénnyé válik egy új EASA törvény.
+
+EASA tervezet -> Véleményezés -> Végső tervezet -> EP és EU tanács -> EU törvény -> nemzeti törvény
+
+### Nemzeti hivatal
 
 ## Légterek és korlátozások
 
