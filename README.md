@@ -262,7 +262,7 @@ Láthatjuk, hogy C4 esetén megengedőbbek a szabályok. Ez azért van, mert a C
 
 ### Repülés kategóriák
 
-#### A1 - emberek közelében
+#### A1 - emberek felett
 
 Ennek a kategóriának van a legkevesebb szabálya. Lehetőség van akár sűrű embertömeg felett is repülni (de nem tömeg felett! Igen, ez egy kicsit megtévesztő, gondolj arra hogy tüntetés vs egy focimeccs). 
 
@@ -281,14 +281,61 @@ Minden esetben a pilóta látómezején belül kell lennie a drónnak, és nem r
 
 C0 kategóriájú drónnal, illetve házi építésű, 250 grammnál könnyebb drón esetén megengedett az emberek feletti repülés extrém óvatossággal. Ennek ellenére kerüljük ezt, ha tudjuk.
 
+C2, C3, C4 típusó drónokkal tilos ilyen módon repülni.
 
 ![Alt text](./Kepek/A1.png)
 
-#### A2
+#### A2 - emberekhez közel
+
+##### C2
+
+Ez a kategória van a leginkább szabályozva, lévén ilyen repülés folyamán van a legnagyobb kockázat. Relatív nehéz ( < 4 kg) drónok repülhetnek emberekhez közel.
+
+Ebben a kategóriában ha C2 típusú drónnal akarunk repülni, akkor egy szigorúbb képzést is el kell végezni.
+
+Mivel a sérülés esélye nő a drón sebességével, ezért **a biztonsági távolság sebességfüggő**. 
+
+- lassú repülésben 5 méter
+- egyébként 30 m
+
+Lassú repülésnek az számit, ha a drón sebessége 3 m/s (10 km/h) sebességnél kisebb, vagy a drón egy ballonnak vagy léghajónak lett tervezve.
+
+Ennél nagyobb biztonsági távolság kötelező, ha nem ideálisak a környezeti feltételek (szél, alacsony akksi töltöttség), vagy ha különböző akadályok (fák) ezt indokolják.
+
+A maximális magasság ebben az esetben is 120 méter és a drónnak a pilóta látómezejében kell hogy legyen (VLOS)
+
+A2 vizsga az alábbi mód tehető:
+- online képzés és vizsga
+- gyakorlati képzés
+- gyakorlati vizsga
+
+##### C0 és C1 
+
+Ugyan úgy reptethető, mint A1
+
+
+##### C3 és C4
+
+Ezek a kategóriájú drónok nem repülhetnek emberekhez közel se
 
 ![Alt text](./Kepek/A2.png)
 
-#### A3
+#### A3 - emberektől távol
+
+Ebben a kategóriában reptethetőek a legnehezebb drónok ( < 25 kg). Annak ellenére, hogy a pilótának nem kell szigorúbb feltételeknek megfelelnie, mégis itt vannak a legnagyobb biztonsági távolságok alkalmazva bármitől, aminek a drón nekiütközhet (épületek, infrastruktúra).
+
+A minimum távolság lakó és ipari épületektől, pihenő övezetektől és infrastruktúrától minimum **150 méter**.
+
+Kötelező biztosítani, hogy nem tájékoztatott / bevont ember (uninvolved person) nem lehet jelen a repülés során a területen.
+
+Ha nem lehetséges a biztonságos távolság tartása ezen járókelőktől, azonnal le kell szállni.
+
+A biztonsági távolságra az alábbi szabályok vonatkoznak
+- több mint 30 méter
+-  1:1 szabály, azaz 1 m távolság esetén max 1 méter magasság, 20 méter távolság esetén max 20 méter, 120 méter távolság esetán 120 méter magasság
+- minimum 2 másodpercnyi utazási távolság, amely körülbelül a reakció időnek felel meg
+
+Ezek mellé a 120 méteres magassági korlátozás is vonatkozik a drónra, amely a pilóta látómezójében kell hogy történjen (VLOS)
 
 ![Alt text](./Kepek/A3.png)
 
