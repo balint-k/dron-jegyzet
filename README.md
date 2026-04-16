@@ -178,7 +178,24 @@ A **CERTIFIED** ategóriába esik az a drón, amire igaz bármelyik az alábbiak
 
 ### Open kategória
 
-Ez a kategória a legkevésbé szabályozott, de a név ellenére léteznek így is szabályok.
+Ez a kategória a legkevésbé szabályozott, de a név ellenére léteznek itt is szabályok. 
+
+Egy OPEN kategóriájú drón reptetése **általában** nem igényel előzetes bejelentést és jóváhagyást se. A drónnal lehet repülni, ha 
+- a drón megfelel a műszaki feltételeknek
+- a pilóta megfelelel az előírásoknak
+- a pilóta a megfelelő képesítéssel rendelkezik
+- egyéb segítők be vannak jelentve (ha vannak)
+
+Az OPEN kategórián belül a repülések különböző repülési kategóriákba vannak sorolva aszerint, hogy milyen terep felett szeretnénk repülni. Ezek a kategóriák az A1, A2 és A3.
+
+A drón a műszaki paraméterei szerint is alkategóriákba van sorolva, ezek a C0, C1, C2, C3 és C3.
+
+A repülés okozta kockázatok több tényezőn alapulnak, a fő tényező nyilván a drón tömege, illetve, hogy merre és mire használnánk (kert felett az alma fa felett vagy tömeg felett). Egy kis drón kisebb sérülést és kárt okoz, így emberekhez közelebb is használható, amíg egy nagyobb, nehezebb drón akár meg is ölhet valakit ha véletlen lezúhan, ezért a repülési szabályok a repülési kategória és a drón alkategória függők, egy mátrixot alkotva.
+
+Ha adott milyen drónnal repülnél --> meg van szabva, hogy milyen fajta repülést végezhetsz.
+Ha adott, hogy milyen repülést végeznél --> meg van szabva, milyen drónokkal teheted
+
+### Műszaki osztályok
 
 ## Repülés adminisztráció és alap szabályok
 
