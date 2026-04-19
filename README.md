@@ -583,13 +583,53 @@ Emellett tilos repülni olyan terület felett, ahol vészhelyzet van. A rendvéd
 
 Repülés csak az eljáró szervek engedélyével lehetséges ilyen esetben.
 
-
 ## Biztonságos repülés és felelősségek
+
+### Felelősségek
+
+A drón pilótát ugyan olyan felelősség terheli mint egy normál pilótát. Ugyan azt a légteret használják így úgyan úgy felelősek azoknak az életéért akik egy másik repülőgépen utaznik ha a saját repülésük veszélyezteti őket.
+
+A felelősség egy drón repülésért fel van osztva a drón üzemeltetője és a drón pilóta között.
+
+A drón üzemeltetője az a jogi vagy természetes személy, aki üzemeltet vagy üzemeltetni szándékozik egy drónt. A legtöbb esetben, kifejezetten a privát szférában (privát --> mint emberek), az üzemeltető egy és ugyan az mint a drón pilóta. Viszont ez nem feltétlen igaz minden, például egy film studió az üzemeltető, birtokólhat drónokat, amig egy munkavállaló aki ténylegesen kezeli.
+
+A drón pilóta aki éppen vezérli a drónt.
+
+A drón pilóta kötelességei a felszállás előtt:
+- meggyőződni arról, hogy rendelkezik-e a megfelelő képesítéssel a repüléshez
+- információt szerezni a repülés során érintett légterektől
+- ellenőriznie kell a környezetet, ellenőriznie kell, hogy vannak-e akadályok, illetve hogy érint-e nem tájékoztatott embert (uninvolved person)
+- ellenőriznie kell, hogy a drón biztonséges és megfelel az üzemeltetési feltételeknek
+- ellenőriznie kell a vezérlést
+- ellenőriznie kell, hogy a távazonósítás műkődik-e megfelelően, ha szükséges
+- ellenőriznie kell, hogy a maximális felszállási súlyt nem haladja-e meg
+
+A drón pilóta kötelességei a repülés során:
 
 ## Biztonság, magánszféra, biztosítás (Securtiy, Privacy, Insurance)
 
+
+
 # Emberi tényezők és korlátaik
+
+## Egészség és fitség
+
+## Érzékelés
 
 # Üzemeltetési eljárások
 
+## Repülés előtti felkészülés
+
+## Repülés monitorozás és követés
+
+## Nem tervezett eljárások
+
 # Műszaki alapok
+
+## Repüléstechnikai alapok
+
+## Felépítés és korlátai
+
+## Adatgyűjtés és repülési módok
+
+## Karbantartás
