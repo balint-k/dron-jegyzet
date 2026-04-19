@@ -485,6 +485,103 @@ Egy 25 méter magasan 19 m/s sebességgel repülő C0 kategóriájú drón zuhan
 
 ## Légterek és korlátozások
 
+Alapvetően drón pilótaként nem kell ismerni azt a komplex szabályzási rendszert ami érvényes a légterekre, mert csak egy nagyon kis részét használjuk a legalsó légtér szeletnek, viszont segít megérteni, hogy a minket érintő zónák, tiltások hogyan alakulnak ki.
+
+### Légiforgalmi térkép
+
+Minden országnak kötelező kiadni egy térképet, amely tartalamzza a repüléssel kapcsolatos adatokat és a légiforgalmat. Ennek az érvényessége általában 1 év, évenkénti újraértékelés miatt.
+
+Ezek a térképek elérhetőek online, adott esetben ingyen is
+
+[https://terkep.legter.hu](https://terkep.legter.hu)
+
+A térkép szabványosított a Nemzetközi Polgári Repülési Szervezet (International Civil Aviation Organisation, the ICAO) által.
+
+### Légtér
+
+Alapesetben csak akkor van egy terület egy zónába sorolva, ha szükséges biztonsági szeompontból. Ezen felül a zónán belül a légtér magasság szerint még zónákra van osztva. Ezek a zónák metszhetik is emiatt egymást (egy 7 km feletti zóna simán átnyulhat egy olyan zóna felett, ami csak 3 km magasságig él.)
+
+Mivel hatalmas a légi közlekedés, illetve egész európa be van borítva különböző zónákkal, ezért egy bizonyos magasság felett kontrollálva van a légi közlekedés (légi irányyítók hello).
+
+Ez drónokra általában nem vonatkozik, lévén alacsonyan repülünk.
+
+Az alap szabály: a légtér korlátozás néküli, amig nem szükséges a biztonság garantálása érdekében (pl. repülőtér)
+
+### Speciális légterek
+
+Ezen légterek nem csak a hagyományos repülőgépek számára, hanem a drónokra is vonatkoznak, lévén ezek felszíntől kezdődő légterek.
+- kontroll zónák
+- veszélyes, korlázotott és tiltott zónák
+- természetvédelmi területek
+- katonai alacsony repülés területek
+
+#### Kontroll zónák
+
+Ezek általában repülőterek környékén találhatóak. Ezek általában a személyszállítás biztosítása miatt lettek kijelölve, lévén le és felszállás során simán keresztezni tudná egy drón a repülő útját.
+
+Tilos drónnal ilyen légtérben tartozkodni.
+
+#### Tiltott zónok
+
+Általában katonai gyakorlóterületek, természetvédelmi területek, kritikus infrastruktúrák környékén találhatóak.
+
+#### Természetvédelmi terület
+
+Kis repülő dolgok menekülési ösztönt váltanak ki a madarakból (főleg a vadon élőkből), amely például egy téli időszakban a madár pusztulását is okozhatja.
+
+Az ő védelműk érdekében tiltott nemzeti parkok és természetvédelmi területeken drónnal repülni.
+
+#### Katonai alacsony repülés
+
+Vannak területek, amelyek ki vannak jelölve arra, hogy a honvédség alacsony magasságú repülést gyakoroljon a gépeikkel. Mivel ilyen területen egy random drón komoly veszélyt jelenthet, ezért kerülendő ezek a területek.
+
+### Kisebb repterek
+
+Kisebb repterek környékén nem szoktak felállítani kontroll zónát, ennek ellenére ezen repterek forgalma folyamatosan növekszik. Ezen kis gépek akár több percet is alacsony magasságban tölthetnek leszállás közben.
+
+Ennek megfelelően, ha nincs véletlen kontrollzóna meghatározva a reptér körül, a lehető legnagyobb figyelemmel repülj drónnal ilyen kis repterek környékén, ha lehet, inkább kerüld el.
+
+Mindig ellenőrizd, hogy nincs-e egy kontroll zóna a repülőtér környékén.
+
+### Kórházak
+
+A legtöbb kórház rendelkezik mentőhelikopter leszállóval. Ha nincsnek kontroll zóna kijelölve a kórház körül, akkor is figyelemmel repülj. 
+
+Mindig ellenőrizd a légteret, hogy nincs-e egy kontroll zóna vagy tiltott zóna a kórház környékén.
+
+### Drón zónák
+
+Az EU szabályok egy könnyítést írnak elő a drónok számára az egész EU területén, amely szerint minden EU tagállam be kell sorolja a légterét különböző geo-zónákba, ahol a drón repülés megengedett, tiltott, vagy különböző feltételekhez kötött.
+
+Ezekről a zónákról az információnak könnyen elérhetőnek kell lennie és könnyen érhetőnek kell lennie.
+
+[https://mydronespace.hu/](https://mydronespace.hu/)
+
+Bármelyik EU-s tagállam meghatározhat geo-zónáz, ahol a drón repülés
+- tiltott
+- engedélyköteles
+- feltételekhez kötött
+- általános követelmények kellenek
+
+Az összes többi helyen, ami nincs zónába sorolva, az általános OPEN kategóriára vonatkozó szabályok vonatkoznak, azaz lehet repülni.
+
+### Felszíni korlátozások
+
+A légtér korlátózások mellé társulnak különböző felszíni korlátozások.
+
+Például tömeg felett tilos repülni. Ez ellen nincs kivétel az OPEN kategóriában. Oké, és mi számít tömegnek.
+
+Pontos defíniciója nincs a tömegnek, inkább egy leírás, hogy az a tömeg, ahol az ember nem tud szabadon mozogni, hogy például elkerüljön egy kontrollálatlan drónt.
+
+Van pár példa is, mint
+- nagyobb sport rendezvény, kulturális, vallási és politikai rendezvény
+- strandok, parkok egy zsúfolt napon
+- bevásároló utcák nyitási időben
+- sí pályák
+
+Emellett tilos repülni olyan terület felett, ahol vészhelyzet van. A rendvédelmi szervek (rendőrök, tűzoltók, mentők) gyakran használnak drónokat. A többi drón kitiltása biztossá teszi, hogy a máveleti terület feletti légtér üres, és egy mentő helikopter biztonságosan le tud szállni.
+
+Repülés csak az eljáró szervek engedélyével lehetséges ilyen esetben.
 
 
 ## Biztonságos repülés és felelősségek
