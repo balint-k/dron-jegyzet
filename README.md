@@ -360,9 +360,132 @@ EU-n kivüli országok számára idő lehet mire nemzeti törvénnyé válik egy
 
 EASA tervezet -> Véleményezés -> Végső tervezet -> EP és EU tanács -> EU törvény -> nemzeti törvény
 
-### Nemzeti hivatal
+### Nemzeti hatóság
+
+Általában az EASA tagállamok rendelkeznek egy nemzeti légügyi hatósággal (Aviation Authority), amely felügyeli a repüléshez kötödő aktivitásokat a megfelelően képzett személyzetével. Felügyeli a pilota nélküli és hagyományos repülést, a piloták jogi és szakmai állapotát, a különböző kiszolgálokat, karbantartó cégeket és gyártókat.
+
+Egyes országokban több repülésügyi hatóság is létezhez, amelyek között a felelősségi körök szét vannak osztva.
+
+#### Illetékes hatóság
+
+Drónpilótaként fontos tudni, hogy pontosan melyik illetékes hatóság (competent aviation authority) feleős a drónokért. Mivel egész európán belül repülhetünk (EASA), így lehet hogy több különböző hatóság is felelős a drónokért (osztrák, magyar, szlovák ha mondjuk jársz ebben a 3 országban).
+
+Az illetékes hatóság az, amely abban az országban felelős a drónokért amelyben a bejelentett lakcímed van. Ez a hatóság felelős
+- drón regisztrációs rendszer fenntartásáért
+- online képzés és vizsgáztatás fenntartásáért (magyar hatóság lol)
+- drónok felügyelete az ország területe felett
+
+### Jogi alapok
+
+A következő EU-s szabályok fontosak drónpilóták számára
+
+#### EASA Basic Regulation - Basic Regulation EU 2018/1139
+
+Ez tartalmazza az alapvető európai repülési szabályokat, például hogy
+- a pilotóknak és üzemeltetőknek kötelező tudniuk az aktuális szabályzásról
+- drónokat úgy kell tervezni, hogy minimalizálják a risk -et és ne veszélyeztessenek embereket
+- drón pilótáknak rendelkezniük kell bizonyos kompetenciákkal
+
+#### Delegated Regulation on UAS EU 2019/945
+
+Műszaki követelmények drónok számára
+
+#### UAS Implementing Regulation EU 2019/947
+
+Ebben van részletezve a drón üzemeltetés részletes szabályai, például a különböző alkategóriák.
+
+#### EASA Accepted verification procedures and guidance
+
+Az EASA közzé tesz kiadványokat, amelyek segítenek értelmezni és alkalmazni az EU-s törvényeket, illetve részletesebben kifejti a törvényben szereplő kifejezéseket.
+
+#### Nemzeti törvények
+
+A nemzeti törvények csak arra szükségesek hogy az EU-s törvnyeket magukra szablyak az ő körülményeiknek megfelelően.
+
+Például az EU szabályzás előírja, hogy a légteret fel kell osztani zónákra, amelyekben tiltott vagy engedélyezett a drón repülés. Ez a a nemzeti hatóságok feladata, hogy meghatározzák, mely területeket milyen besorolást kapnak (így alkalmazván az EU-s törvényt)
+
+A nemzeti hatóságok általában interneten és applikációkon keresztül publikálnak információkat.
+
+### Kvalifikáltság
+
+
+A drón pilótáknak meg kell felelni pár feltételnek ahhoz hogy repülést hajthassanak végre, amelyek
+
+- minimum életkor
+- megfelelő tudás
+
+
+#### Minimum életkor
+
+Az OPEN kategóriában a minimum korhatár pilóták számára 16 év. Ezt az EU-s tagállamok egyéni hatáskörben lejebb vihetik 4 évvel (12 év életkorig). 
+
+Emellé a 12 - 16 év közötti pilóták számára egyéb szabályok is meghatározhatok.
+
+A minimum életkor szabályt nem kell használni, ha
+- ha egy C0 kategóriájú drón repül A1 kategóriában
+- egy kvalifikált drón pilóta direkt felügyeli a fiatal pilótát
+
+#### Megfelelő tudás
+
+Az alkategóriától függően egy drónpilótának sok követelménynek meg kell felelnie. Hogy ehhez a megfelelő tudást megszerezze, az összes drón pilotának el kell végeznie egy online elméleti képzést és át kell mennie az ehhez tartozó online teszten.
+
+Az egyetlen kivétel a C0 kategória, amihez nem kell semmilyen képesítés sem.
+
+Az online kurzus az alábbi témákat érinti:
+- repülés biztonság
+- légterek és zónák
+- repülés szabályzás
+- emberi tényezők
+- Üzemeltetési eljárások
+- UAS műszaki témák
+- Adatvédelem
+- Biztosítás
+- Safety
+
+Az online teszt elvágzáse után megkapjuk a certificate -et, ami 5 évre szól.
+
+#### A2
+
+Gyakorlati önképzés csak a C2 drónok A2 -es esetén szükséges, mivel ebben az esetben relatív nagy drónokkal repülünk relatív közel emberekhez, ezért először a pilótának a megfelelő gyakorlattal kell rendelkezni repülés során.
+
+Ezt olyan területen kell megtenni, ahol nincsenek nem tájékoztatott emberek (uninvolved person), azaz A3 repülés.
+
+Az önképzés során figyelj arra, hogy
+- minimum 5x repültél
+- ismerd meg a területeket és a határokat
+- ismerd meg az összes control mode -ot
+- ismerkedj emg a vezérlés összes elemével, összes gomb, interfész
+- próbáld ki a vészhelyzeteket (return function, összeköttetés megszakadás)
+
+Ezek után önbevallást kell tennie arról, hogy sikeresen elvégezte a gyakorlati képzést és hogy megbizhatóan tudja irányítani a drónt.
+
+Ezen felül el kell végezni egy A2 elméleti vizsgát is, amelyet az illetékes hatóság szervez meg.
+
+Ez elvégzése után megszerezzük az A2 jogósítványt, amelynek az érvényessége a vizsgáztató hatóság általá van meghatározva.
+
+### Drón regisztráció
+
+A drónok regiszrtációja elsődlegesen nem safety okból történik, hanem adatvédelmi okból. Relatív könnyű megsérteni emberek magánéletét és személyes terét egy drónnal, ezért a regisztráció kötelesség nem feltétlen a drón súlya alapján történik, hanem az adatgyűjtés potenciálja szerint.
+
+Ha a drónod az alábbi feltételek közül egynek is megfelel akkor regisztrálnod kell a drónodat
+
+- A maximális felszállási súly több mint 250 gramm (C1 - C4)
+- Az ütközési energiája több mint 80 J
+- Fel van szerelve bármilyen szenzorral ami képes adatgyűjtése, pl. kamera, videókamera, mikrofón
+
+Mentesülsz a regiszrtráció alól ha a drón a EU Toys Directive (Directive 2009/48/EC of the European Parliament) alá esik.
+
+A regisztráció az illetékes hatóság által történik
+
+#### Ütközési energia
+
+Az az energia, amivel a drón becsapodik. Minél nagyobb, annál nagyobb az esély a sérülésre.
+
+Egy 25 méter magasan 19 m/s sebességgel repülő C0 kategóriájú drón zuhanás során képes egy 110 J ütközési energiára, ami bőven a regisztráció limit felett van.
 
 ## Légterek és korlátozások
+
+
 
 ## Biztonságos repülés és felelősségek
 
