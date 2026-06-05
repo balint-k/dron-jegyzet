@@ -690,18 +690,51 @@ Ha egy másik repülő (normál vagy drón) jelen meg a légtérben hirtelen, a 
 
 > Ezen a ponton engedtem el és generáltam ki a jegyzet nagy részét Mistral -lal. Igazából nem tudom hogy add-e a tanuláshoz az hozzá, hogy kigépelek mindent, már most 33 ezer karakternél tart és ez kb a negyede......
 
+### VLOS (Visual Line of Sight – Látómezőn belüli üzemeltetés)
+- **Definíció**: A **VLOS** (angol rövidítés) azt jelenti, hogy a drón **következetes látómezőn belül** üzemel, a távvezérlő pilóta **technikai eszközök nélkül** folyamatosan látja a drónt.
+  - **Cél**: Ütközés elkerülése más légijárművekkel, emberekkel vagy akadályokkal.
+  - **Időpont**: Nappali vagy éjszakai üzemeltetés is lehetséges (pl. fények segítségével).
+  - **Kivétel**: **BVLOS** (Beyond Visual Line of Sight) – **tilos** a nyílt kategóriában.
 
+- **C0/C1 osztályú drónok "Follow-Me" módja**:
+  - A drón **automatikusan követi** a pilótát (pl. felvétel készítése céljából).
+  - **Maximális távolság**: 50 méter (a szoftver automatikusan ellenőrzi).
+  - **50 méter feletti távolság tilos**.
 
-### VLOS - látótáv
+### FPV (First Person View – Első személyű nézet)
+- **Leírás**: A pilóta a drón **kameráján keresztül** látja a környezetét (pl. VR-szemüveg vagy monitor segítségével).
+- **Feltételek**:
+  1. **Második, kvalifikált megfigyelő** szükséges, aki:
+     - **Felelős** a légtér és környezet monitorozásáért.
+     - **Közvetlenül** a pilóta mellett áll, és **folyamatosan látja** a drónt.
+     - **Hatékony kommunikáció** a pilótával (pl. hangjelzések, rádió).
+  2. A **távvezérlő pilóta felelőssége** marad a repülésért.
+- **Cél**: Biztonságos repülés biztosítása, ütközés elkerülése.
 
-### FPV
+### Veszélyes áruk szállítása
+- **Tilos** a nyílt kategóriában:
+  - **Veszélyes áruk** vagy **veszélyes anyagok** szállítása.
+  - **Dobálás** (bármilyen tárgy, függetlenül attól, hogy veszélyes-e).
+- **Kivétel**: Csak a **tüzelőanyag** vagy **energiaforrás** (pl. akkumulátor) engedélyezett.
 
-### Veszélyes szállítmány
+#### Mi számít veszélyes árunak?
+- **Robbanóanyagok**
+- **Gázok**
+- **Gyúlékony folyadékok/szilárd anyagok**
+- **Oxidáló anyagok** (pl. gyújtóanyagok, szerves peroxidok)
+- **Mérgező/fertőző anyagok**
+- **Radioaktív anyagok**
+- **Maró anyagok**
 
-### Szabálysértés bejelentés
-
-## Biztonság, magánszféra, biztosítás (Securtiy, Privacy, Insurance)
-
+### Baleset- és incidensjelentés
+- **Cél**: Jövőbeli balesetek megelőzése (nem büntetés kiszabása).
+- **Kötelező jelenteni**, ha:
+  - **Súlyos sérülés** vagy **halál** történt drón miatt.
+  - **Majdnem ütközés** manőverezhető légijárművel.
+- **Jelentési mód**:
+  - **Németország**: [Szövetségi Légibaleset-vizsgáló Hivatal (BFU)](https://onl-meldung.bfu-web.de/onlmeldung) (ingyenes, online űrlap).
+  - **Ausztria**: [Austro Control](https://www.austrocontrol.at/occ) (ingyenes, online űrlap).
+- **Fontos**: A jelentés **nem vonható be büntetésre** – kizárólag a biztonság javítása a cél.
 
 
 # Emberi tényezők és korlátaik
