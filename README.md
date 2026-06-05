@@ -737,6 +737,126 @@ Ha egy másik repülő (normál vagy drón) jelen meg a légtérben hirtelen, a 
 - **Fontos**: A jelentés **nem vonható be büntetésre** – kizárólag a biztonság javítása a cél.
 
 
+## Biztonság, magánszféra, biztosítás (Securtiy, Privacy, Insurance)
+
+### Biztonság vs. Védettség (Security vs. Safety)
+
+
+#### **Fogalmak magyarázata**
+- **Security (Védettség)**: Védelem **szándékos** károkozás ellen, például:
+  - Terrorizmus
+  - Szándékos bűncselekmények
+  - Drónok **bűnügyi célú** visszaélése
+
+- **Safety (Biztonság)**: Védelem **véletlen** vagy **nem kívánt** veszélyforrások ellen, például:
+  - Hajtómű meghibásodás
+  - Tájékozódás vesztése
+  - Vezérlési hiba
+  - Energiaforrás (akkumulátor) meghibásodása
+
+
+### Biztonság (Safety)
+#### Fontos kérdések a repülés előtt**
+Minden repülés előtt a távvezérlő pilótának **kötelező** feltennie magának a következő kérdéseket:
+1. **Jogos és engedélyezett célból** repülök-e?
+2. **Senkit sem veszélyeztetek** a repülésemmel (más légijárművek, emberek)?
+3. **Kizárt**, hogy a repülésemmel mások magánszféráját sértsem?
+4. **Kizárt**, hogy a repülésem akadályozza** a hatóságok, rendőrség vagy mentők munkáját?
+
+####  Jogi következmények
+- A drónokkal elkövetett bűncselekményeket az **adott ország büntetőjoga** szerint értékelik.
+- **Büntetések**:
+  - Pénzbírság
+  - Évi börtönbüntetés (a súlyosságtól függően)
+- **Példák bűncselekményekre**:
+  - Légiközlekedés veszélyeztetése
+  - Magánszféra sérülése
+  - Bűnsegédlet (pl. mások bűncselekményének segítése)
+
+### Kockázatcsökkentő intézkedések
+- **Regisztráció**: UAS operátorok regisztrációja kötelező.
+- **Technikai megoldások**:
+  - **Geo-fencing** (tiltott zónák automatikus blokkolása)
+  - **Geo-awareness** (figyelmeztető rendszerek)
+- **Fejlelősség**: A **távvezérlő pilóta** felelős az UAS jogszerű vagy jogtalan használatáért.
+
+#### Nyilvánosság tájékoztatása
+A drónok látványa gyakran **ijesztő** vagy **feszélyező** a közvélemény számára. A pilóták tehetnek a félelmek csökkentéséért:
+- **Aktívan tájékoztatni** a környező embereket a repülés céljáról.
+- **Jelenteni** a szabálysértéseket a hatóságoknak.
+- **Figyelmeztetni** más pilótákat, ha szabálysértést észlelnek.
+
+#### Tiltott repülési területek
+- **Tiltott** drónnal repülni **veszélyhelyzetek** (pl. baleset, tűz, rendőri akció) területén **kivéve**, ha a felelős hatóság **írásos engedélyt** ad.
+- **Indok**: A mentőszolgálatok (rendőrség, tűzoltóság, mentők) **drónokat is használhatnak** a helyzet felmérésére. **Ne akadályozd** a munkájukat!
+
+
+### Adatvédelem (GDPR – Általános Adatvédelmi Rendelet)
+
+#### Alapvető jogok és szabályok
+- **Adatvédelem** az **EU alapjoga** (GDPR).
+- **Személyes adatok**: Bármilyen adat, amely **azonosítható természetes személyre** vonatkozik (pl. név, azonosító szám, helyadat, online azonosító, fiziológiai/pszichológiai jellemzők).
+- **Példák személyes adatokra**:
+  - Videofelvételek
+  - Fényképek
+  - Hangfelvételek
+  - Hőérzékelő kamerák felvételei
+
+#### Szenzorok és regisztráció
+- **Kötelező regisztráció**, ha a drón **személyes adatok rögzítésére képes szenzorokkal** rendelkezik (kivéve, ha a drón az **EU Játékirányelv** alá tartozik).
+- **Példák szenzorokra**:
+  - Videokamerák
+  - Fényképezőgépek
+  - Mikrofonok
+  - Infravörös kamerák
+  - Hőkamerák
+
+#### Személyes adatok kezelésének feltételei (GDPR)
+
+> Itt kihagyta az egész GDPR lényegét
+
+A személyes adatok feldolgozása **csak akkor engedélyezett**, ha legalább az alábbi feltételek közül **egy** teljesül:
+1. Az **érintett személy hozzájárulása** van.
+2. A feldolgozás **szerződés teljesítése érdekében** szükséges.
+3. A feldolgozás **jogi kötelezettség** teljesítése érdekében szükséges.
+4. A feldolgozás **életfontosságú érdekek** védelme érdekében szükséges.
+5. A feldolgozás **közérdekű feladat** végrehajtása érdekében szükséges.
+6. A feldolgozás a **feldolgozó vagy harmadik fél jogos érdekeinek** védelme érdekében szükséges.
+
+#### **Tiltott tevékenységek**
+- **Magánszféra sérülése** (pl. felvétel készítése mások magánterületén nélkülük).
+- **Arcfelismerő vagy automatikus feldolgozás** céljára történő felvétel.
+- **Különleges védelmet élvező személyes adatok** rögzítése (pl. egészségügyi adatok).
+- **Hozzájárulás visszavonása** után a felvételek **azonnali törlése kötelező**.
+
+#### **Javaslat**
+- **Minimalizáld** a személyes adatok rögzítését.
+- **Ha kételkedsz**, ne készíts felvételeket – **válassz a biztonságos megoldás mellett**!
+
+### Biztosítás
+#### Felelősség és kárpótlás
+
+> UAS operátor felelős, de ezt is kihagyta...
+
+- A drónok üzemeltetése **mindig kockázatot** hordoz.
+- **Kárpótlási kérdések**:
+  - **Ki okozta a balesetet?**
+  - **Ki fizeti a károkat?**
+
+#### **Kötelező biztosítás**
+- **Ausztria és Németország**:
+  - **Kötelező felelősségbiztosítás** UAS operátorok számára.
+  - **Minimális fedőösszeg**: **750 000 SDR** (Special Drawing Right – nemzeti valutaekvivalens).
+  - **Érvényes**: Mindennemű **500 kg alatti** drónra.
+- **Biztosítási feltételek**:
+  - A biztosítás **csak a szabályok betartása mellett** érvényes.
+  - **BVLOS repülés** (látómezőn kívül) esetén a biztosítás **nem állja a károkat**!
+  - **Meglévő felelősségbiztosítások** gyakran **nem fedik** a drónok által okozott károkat – **ellenőrizd** a szerződésedet!
+
+#### **Fontos**
+- **Mindig ellenőrizd** az adott ország biztosítási szabályait.
+- **Sok biztosítás** több európai országra is érvényes – **olvasd el a feltételeket**!
+
 # Emberi tényezők és korlátaik
 
 ## Egészség és fitség
