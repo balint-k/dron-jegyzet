@@ -605,6 +605,100 @@ A drón pilóta kötelességei a felszállás előtt:
 - ellenőriznie kell, hogy a maximális felszállási súlyt nem haladja-e meg
 
 A drón pilóta kötelességei a repülés során:
+- a drónt VLOS-ban (látótávolságon belül) kell tartania
+- monitoroznia kell a közeli légteret, illetve kerülnie kell minden olyan kockázatot ami ütközéshez vezethet a másik drónnal vagy más repülővel
+- azonnal le kell állítania a repülést ha a repülés kockázatot jelent bármilyen más légijárműre, állatra, környezetre, vagy a földön található dolgokra
+- figyelni a geozónákra
+- a drónt a gyártó ajánlásainak megfelelően kell üzemeltetni, tekintettel a megszorításokra és limitációkra
+- be kell tartania az érvénybelévő jogszabályokat és követelményeket
+
+A hatályos jogszabályok és elvárások megsértése az az állam által van bűntetve, ahol ez a jogsértés megesik
+
+### Jó pilóta ("good airmanship")
+
+A jó pilótaságnak vagy egy kifejezése az angolban "good airmanship". Ez:
+
+---
+The (distant) pilot / the (far)pilot is
+ - familiar with the principles of aerodynamics,
+ - possesses the ability to control the aircraft competently and accurately, both on the ground and in the air, and
+ - has good judgment that guarantees safe and efficient operation."
+---
+
+Magyarul: (bocs a szar fordításért :D)
+
+---
+A jó pilóta az a pilóta, aki
+- tisztában van az aerodinamika alapjaival
+- képes a légijárművet megfelelően kezelni mind a földön mind a levegőben
+- és jó ítélőképessége van ami garantálja a biztonságos és hatékony repülést
+---
+
+"Good airmanship" teszi a pilótát jó pilótává. Annak ellenére, hogy egy drón veszélytelennek tűnik, mégis nagy gondot tud okozni, gondoljunk például emberekre a földön, vagy más légijárművekre a légtérben.
+
+A jó pilóta feladata hogy felismerje és minimalizálja a kockázatot amennyire lehetséges.
+
+### Kockázatok
+
+Hogy felismerjük és kezeljük a kockázatokat a drónrepülés során, különbséget kell tennünk földi kockázatok és a légi kockázatok.
+
+A lehetséges veszély források lehetnek:
+- Ütközés más légijárművel
+- Majdnem-ütközés
+- Látótávolság elvesztése
+- Rádiós kapcsolat elvesztése
+- Energiatároló lemerülése
+- Drón használata illegális cselekményhez (cigi csempészek hello)
+- Reptér műkődésének megzavarása
+- Kontrollálatlan elrepülés
+- Adatszivárgás
+- Privát széfra megsértése
+- Akkumulátor tűz
+- Ingatlan rongálás
+- Nyugalom megzavarása
+- Személyi sérülés
+- És még sok minden....
+
+A fentebbeknek felsorolt források lehetnek légiek, földiek, vagy mindkettő
+
+### Döntéshozás
+
+Hogyha követed a "good airmanship" elveit és felismered a drón károkozó képességéet, ezek a döntéshozás támogató elvek tudnak segíteni a repülés során.
+
+- Minden vakmerő viselkedés kerülendő
+- Minden kockázat kerülendő
+- Ha egy kis bizonytalanság is van valakinek a képességeiben, akkor elősször egy biztonságos helyen gyakoroljatok
+- Folyamatosan nézd az időjárás jelentést, és kétes időjárás esetén halaszd el a repülést
+- Folyamatosan figyeld a repülés közben a környezetet
+
+### Légi KRESZ
+
+A utcai közlekedéshez hasonlóan a légi közlekedésnek is vannak szabályai. Például, kinek van elsőbbsége?
+
+Az elsőbbségi szabályok fontosak és egyszerűek:
+
+- Embert szállító repülőknek mindig elsőbbsége van
+- Sose repülj vakmerően közel más repülőgépekhez, hogy ne legyen ütközési kockázat
+- Ha egy repülőgépnek láthatóan problémája van, elsőbbsége van
+- Leszálló repülőknek elsőbbsége van felszálló repülőkkel szemben
+
+Emellé, nagyon fontos hogy a drón piloták figyelemmel legyenek a maximum magasságra vonazkozó limitációra, illetve hogy emberrel történő repülők ne essenek a megengedett minimum magasságuk alá. Ez az egyetlen mód arra, hogy a két fajta repülést elszeparáljuk egymástól annyira amennyire lehet.
+
+Rendes repülőgép pilóták számára szinte lehetetlen a drónok észlelése, mert el vannak foglalva a navigációval, rádiózással, checklistákkal, és más repülőkre való figyeléssel. Egy kis drón felismerése pl. 200 km/h -val haladó repülőből elég nehéz. Kifejezetten kritikus a felszállás és a leszállás, mert a minimum repülési magasság alatt vannak ilyenkor a repülők.
+
+Ha egy másik repülő (normál vagy drón) jelen meg a légtérben hirtelen, a repülést fel kell függeszteni biztonságosan olyan gyorsan amilyen gyorsan lehet, és addig nem lehet folytatni amig az ütközés kockázata el nem múlt.
+
+> Ezen a ponton engedtem el és generáltam ki a jegyzet nagy részét Mistral -lal. Igazából nem tudom hogy add-e a tanuláshoz az hozzá, hogy kigépelek mindent, már most 33 ezer karakternél tart és ez kb a negyede......
+
+
+
+### VLOS - látótáv
+
+### FPV
+
+### Veszélyes szállítmány
+
+### Szabálysértés bejelentés
 
 ## Biztonság, magánszféra, biztosítás (Securtiy, Privacy, Insurance)
 
