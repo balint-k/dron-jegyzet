@@ -859,7 +859,91 @@ A személyes adatok feldolgozása **csak akkor engedélyezett**, ha legalább az
 
 # Emberi tényezők és korlátaik
 
+### Bevezetés az emberi teljesítménybe
+- **Fókusz:** Az **emberi tényező** az egyetlen repülési tárgy, ahol a középpontban az ember áll.
+- **Történeti háttér:** A repülés kezdetén a **technikai szempontok** voltak prioritásosak, nem az emberi tényezők.
+- **Modern relevancia:** Manapság az **emberi teljesítmény** és a **konfliktuskezelés** kulcsfontosságú a **biztonság** szempontjából, akár ember vezeti, akár drón a jármű.
+
 ## Egészség és fitség
+
+
+> **Fontos megjegyzés:**
+> *Az ember hoz döntéseket; a technológia csak eszköz. A drónpilóta cselekedetei és a saját korlátainak tudatosítása **élvezeti a biztonságos működtetést**.*
+
+
+### Emberi Teljesítmény (HPL 1)
+**Téma:** A drónpilóta **egészsége és fizikai állapota**.
+**Alfejezetek:**
+- Betegség
+- Gyógyszerek
+- Alkohol
+- Fáradtság
+
+
+### Egészség és fizikai állapot drónpilóták számára
+
+#### Betegség
+- **Hatás a biztonságra:** Akár **kisebb betegségek** (pl. nátha, influenzza, fejfájás, emésztési panaszok) is **ronthatják a teljesítményt** vagy elterelik a figyelmet a drón biztonságos működtetéséről.
+- **Kognitív hatások:**
+  - **Érvelési képesség** romlása
+  - **Ítéletképesség** gyengülése
+  - **Következtetési képesség** csökkenése
+  - **Téri tájékozódás** nehezítése
+- **Cselekvés:**
+  - **Ne alábecsüld** a tüneteket – gyorsan romolhatnak repülés közben!
+  - **Azonnali leszállás** vagy átadás egy másik pilótának, ha tünetek jelentkeznek.
+  - **Repülés előtti ellenőrzés:** Mindig értékeld a saját állapotodat. *"Ha van kétség, a drón maradjon a földön!"*
+
+
+#### Gyógyszerek
+- **Kockázati értékelés:** Ha gyógyszert szedsz (receptes vagy recept nélkül), kérdezd meg magadtól: *Miért?*
+  - A **gyógyszer szedésének oka** (pl. betegség) magában is **kizárhatja** a repülést.
+- **Figyelembe veendő tényezők:**
+  - **Közvetlen hatások**
+  - **Mellékhatások** (pl. álmosság, szédülés)
+  - **Gyógyszerek kölcsönhatásai**
+- **Szabály:** **Bármilyen kétség** esetén **ne repülj!**
+
+#### Alkohol
+- **Nagy kockázati tényező:** Akár **kisebb mennyiség** is **ronthatja** a drón irányítását.
+- **Szabályozás (kereskedelmi repülés iránymutatója):**
+  - **Max. véralkohol-szint:** 0,2‰ a szolgálat kezdetekor.
+  - **Tiltás:** Alkohol fogyasztása **8 órával** a szolgálat előtt vagy alatt.
+- **Az alkohol hatásai:**
+  - **Éles csökkenés** a kognitív teljesítményben
+  - **Hamis érzés** a saját képességekről
+  - **Növekvő hibázási arány** és **kockázatvállalás**
+  - **Rontott téri tájékozódás**
+- **Jogi következmények:** Baleset alkohol hatása alatt **büntetés** vagy **kárpótlási igények** vonhatja mag után.
+- **Aranyszabály:** **Soha ne működtess drónt alkohol hatása alatt!**
+
+#### Fáradtság
+- **Okok:**
+  - **Alváshiány**
+  - **Hosszú ébrenlét**
+  - **Fizikai kimerültség** (pl. intenzív munka, sport)
+- **Hatás a repülési biztonságra:**
+  - **Csökkent figyelem**
+  - **Zavart situációs tudatosság** (pl. nem veszed észre a környezeted változásait)
+  - **Mikroalvás** (rövid elalvás)
+  - **Növekvő érzékelési zavarok** és **rossz ítélőképesség**
+- **Fáradtság vs. Alkohol összehasonlítás:**
+  - **17 óra ébrenlét** ≈ **0,5‰ véralkohol-szint**
+  - **23 óra ébrenlét** ≈ **1,0‰ véralkohol-szint**
+- **Cselekvés:**
+  - **Realisztikusan értékeld** a saját állapotodat.
+  - **Pihenj ki magad** minden repülés előtt. *"Ha van kétség, a drón maradjon a földön!"*
+
+### Összefoglaló tanulságok
+1. Az **emberi tényezők** legalább olyan fontosak, mint a **technikai készség** a repülésben.
+2. **Önismeret** a saját korlátaidat illetően (egészség, gyógyszerek, fáradtság, alkohol) **kötelező** a biztonság szempontjából.
+3. **Repülés előtti ellenőrzés**nek tartalmaznia kell a **fizikai és kognitív állapot** értékelését is.
+4. **Kétség esetén?** **Ne repülj** – a biztonság a legfontosabb!
+
+### Reflektáló kérdések
+- Hogyan értékeled jelenleg a saját állapotodat repülés előtt?
+- Volt-e már olyan élményed, hogy fáradtság vagy betegség befolyásolta a teljesítményedet? Hogyan kezelted?
+- Milyen stratégiákat alkalmazhatsz a gyógyszerek vagy alkohol kockázatainak csökkentésére?
 
 ## Érzékelés
 
