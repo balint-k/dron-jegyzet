@@ -1399,6 +1399,139 @@ A modulban a következő **almodulok** keretében kerül sor a repülés előké
 
 ## Felépítés és korlátai
 
+### **Alapvető komponensek (minden drónban meglévő)**
+1. **Hajtórendszer**
+   - **Energiaforrás**: Akkumulátor (leggyakrabban LiPo) vagy üzemanyag.
+   - **Motorok**: Elektromotorok (többség) vagy belső égésű motorok (ritka).
+     - **Működés**: Állandó és elektromágneses tekercsek **forgómozgást** hoznak létre.
+   - **Propellerek**: **Szárnyként működnek** – forgásuk során **felhajtóerőt** generálnak.
+   - **Sebességszabályzó (ESC – Electronic Speed Controller)**: Szabályozza a motorok (és propellerek) forgási sebességét.
+
+2. **Feszültségelosztó**
+   - **Feladata**: Az energia **egyenletes elosztása** a rendszerek között.
+
+3. **Fedélzeti számítógép (Autopilot)**
+   - A drón **"agyá"** – **központi egység**, amely:
+     - **Gyűjti és feldolgozza** az érzékelők adatait.
+     - **Vezérli** a repülést (pl. stabilitás, navigáció).
+     - **Kommunikál** a távvezérlővel.
+
+4. **Firmware (Szoftver)**
+   - **Gyártó által frissítve** – **kötelező ellenőrizni** a legújabb verziót!
+   - **Fontos**: **Frissítés után mindig teszteld** a drónt biztonságos környezetben!
+
+5. **Vezérlés**
+   - **Távvezérlő** vagy **földi állomás** (ground station) segítségével.
+   - **Rádiójelek** útján küldött utasítások a drón fedélzeti elektronikájához.
+
+6. **Telemetria**
+   - **Kétirányú rádiókapcsolat** a távvezérlő és a drón között.
+   - **Adatok átvitele**:
+     - **Vezérlési jelek** (távvezérlő → drón).
+     - **Állapotjelzések** (drón → távvezérlő):
+       - Magasság
+       - Motor hőmérséklet
+       - Akkumulátor szint
+       - Fedélzeti kamera élő képe
+
+7. **Egyéb elemek**
+   - **Navigációs fények** (éjszakai repüléshez).
+   - **Vezérlő fények** (állapotjelzés).
+   - **Gimbal** (kamera stabilizálása).
+   - **Automatikus futómű** (leszálláskor).
+   - **Érzékelők** (pl. GPS, barométer, dőlésérzékelő, iránytű).
+   - **Hasznos terhelés (Payload)**: Bármilyen extra tömeg (pl. kamera, szenzorok).
+
+
+### **A komponensek együttműködése**
+1. A **távvezérlő** utasításait a **telemetria** továbbítja a **fedélzeti számítógépnek**.
+2. A **fedélzeti számítógép** feldolgozza az **érzékelők adatait** (pl. pozíció, magasság, dőlés, irány).
+3. **Algoritmusok** segítségével **számítások** történnek (pl. stabilitás, navigáció).
+4. A **sebességszabályzók (ESC)** kapják a parancsokat, és **szabályozzák a motorok sebességét**.
+5. A **motorok** a **propellereket** hajtják, amelyek **felhajtóerőt** generálnak.
+6. **Speciális funkciók** (pl. automatikus követés, 360°-os hurkok) a **fedélzeti elektronika** segítségével valósíthatók meg.
+
+
+### **Korlátok**
+
+#### **Repülési idő korlátai**
+- **Gyártó által megadott maximális repülési idő** **optimális feltételek** mellett van megadva (pl. szél nélkül).
+- **Valóságos feltételek**: **20%-kal rövidebb** a repülési idő (LiPo akkumulátorok gyorsan veszítenek hatékonyságukból).
+- **Szél hatása**:
+  - **100 m magasságban** a szél **erősebb**, mint a föld közelében!
+  - **Ha a szélsebesség meghaladja** a drón maximális sebességét → **nem lehet visszatérni!**
+
+#### **Rádiójel korlátai**
+- **Gyártó által megadott távolság** (pl. 1 km) **elméleti maximum** (pl. távvezérlő jele).
+- **Valóságos korlátok**:
+  - **Látómezőn belül** kell maradni (VLOS).
+  - **Zavaró jelek**: Mobiltelefon-torony, rádióadók → **rádiókapcsolat meggyengülése**.
+
+#### **Időjárási korlátok**
+   **Időjárási feltétel** | **Hatás a drónra** | **Javaslat** |
+ |------------------------|---------------------|--------------|
+ | **Eső, hó, jégverés** | Elektronika károsodása, kommunikációs problémák | **Tiltott repülés!** |
+ | **Alacsony hőmérséklet** | Akkumulátor kapacitás csökkenése, jégképződés a propellereken | **Akkumulátorokat meleg helyen tárolni** (pl. táska, meleg autó). |
+ | **Magas hőmérséklet (>35°C)** | Motorok túlmelegedése | **Hűtés ellenőrzése, ne repülj hosszú ideig.** |
+ | **Erős szél, szélrohamok** | Vezérlés nehezítése, ütközési veszély | **Időben szállj le!** |
+
+#### **Fizikai korlátok**
+- **Leszálláskor** **óvatosan bánj** a drónnal – **rázkódás károsíthatja** a fedélzeti rendszereket.
+- **Fáradási károk**:
+  - **Kisebb incidensek összhatása** → **alkatrész meghibásodása**.
+  - **Javaslat**: **Alapos ellenőrzés a napi első repülés előtt!**
+
+- **Propeller károk**:
+  - **Okok**: Ütközés, leszálláskor történő borulás.
+  - **Hatás**: **Vibrációk** → motorok károsodása → **balesetveszély!**
+  - **Megoldás**: **Sérült propellerek azonnal cserélendők!**
+
+- **Motorok élettartama**:
+  - **Elméleti**: ~20 000 óra.
+  - **Valóságos**: **Homok, por, víz** csökkenti az élettartamot.
+  - **Ellenőrzés**: **Kézi forgatás** – ha **ellenállás** érezhető → **motor részletes ellenőrzése szükséges!**
+
+
+### **"Geo" rendszerek**
+
+#### **Geo-Awareness (Légtérfigyelő rendszer)**
+- **Kötelező** **C1, C2, C3 osztályú drónoknál**.
+- **Működés**: **Figyelmezteti** a pilótát, ha **tiltott vagy korlátozott légtérbe** repül.
+- **Adatforrás**: **Tagállamok** adatai (mindig **naprakészek** kell legyenek).
+
+#### **Geo-Fence (Virtuális kerítés)**
+- **Definíció**: **Virtuális határ** (koordináták alapján).
+- **Működés**:
+  - **Ha a drón eléri a határt** → **automatikus manőver** (pl. repülés megállítás).
+  - **Ha tiltott zónában van** → **a drón nem is indul el!**
+
+#### **Geo-Caging (Virtuális ketrec)**
+- **Definíció**: A drón **kizárólag egy virtuálisan lehatárolt területen belül** repülhet.
+- **Előny**: **Veszély esetén is a területen belül marad** (ha a műholdas navigáció működik).
+
+### **Megbízhatóság (Fail-Safe rendszerek)**
+
+#### **"Fail-Safe" módok**
+- **Automatikus biztonsági manőverek** problémák esetén.
+- **Fő funkció**: **"Return To Home" (RTH)** – **Visszatérés a kiindulási pontra**.
+- **Feltételek**:
+  - **Kiindulási pont rögzítése**.
+  - **Aktuális pozíció ismerete** a hiba bekövetkeztekor.
+
+#### **RTH funkciók típusa**
+ | **Típus** | **Leírás** | **Példa** |
+ |-----------|------------|------------|
+ | **Failsafe** | Ha a távvezérlő jele **megszakad** (pl. 3 másodpercig) → **automatikus visszatérés**. | Rádiójel vesztés. |
+ | **Smart RTH** | **Ütközéskerülő rendszer aktív** a visszatérés alatt. | Akadályok elkerülése. |
+ | **Alacsony akkumulátor** | **Kritikus akkumulátor szint** → **automatikus visszatérés**. | 20% alatti töltöttség. |
+
+#### **RTH használatának figyelmeztetései**
+- **A legrövidebb út** a kiindulási pontig → **akadályok nem veszik figyelembe!**
+- **Ütközés elkerülése**:
+  - **RTH magasság beállítása** **magasabbra**, mint a környezetben lévő akadályok.
+  - **Ütközéskerülő rendszer aktiválása**.
+- **Ha nincsen ütközéskerülő rendszered** → **ne repülj akadályok mögé!**
+
 ## Adatgyűjtés és repülési módok
 
 ## Karbantartás
