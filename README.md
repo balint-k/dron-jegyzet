@@ -1532,6 +1532,127 @@ A modulban a következő **almodulok** keretében kerül sor a repülés előké
   - **Ütközéskerülő rendszer aktiválása**.
 - **Ha nincsen ütközéskerülő rendszered** → **ne repülj akadályok mögé!**
 
-## Adatgyűjtés és repülési módok
+## Adatátvitel és repülési módok
+
+### **Rádióhullámok terjedése**
+
+#### **Alapfogalmak**
+- **Rádióhullámok**: **Elektromágneses hullámok**, amelyek **információt** hordoznak (pl. rádió, mobiltelefon, TV, WiFi, drónvezérlés).
+- **Hullámjellemzők**:
+  - **Hullámhossz**: Egy teljes lengés (pozitív + negatív kitérés) távolsága.
+  - **Amplitúdó**: A hullám **maximális kitérése** a nullaponttól.
+  - **Frekvencia**: **Lengések száma másodpercenként** (mértékegység: **Hertz, Hz**).
+    - **Példa**: WiFi frekvencia **2.4 GHz = 2,4 milliárd lengés/másodperc**.
+
+- **Frekvencia és hullámhossz kapcsolata**:
+  - **Fordított arányosság**:
+    - **Magasabb frekvencia** → **rövidebb hullámhossz**.
+    - **Alacsonyabb frekvencia** → **hosszabb hullámhossz**.
+
+#### **Moduláció (Információkódolás)**
+- **Cél**: Információ **rádióhullámra való felvitel**e.
+- **Főbb modulációs típusok**:
+  1. **Frekvenciamoduláció (FM)**: A hullám **frekvenciájának** megváltoztatása.
+  2. **Amplitúdómoduláció (AM)**: A hullám **amplitúdójának** megváltoztatása.
+
+
+#### **Rádióhullámok terjedése**
+- **30 MHz felett**: **"Egyenes hullámok"** (kvázioptikai hullámok).
+  - **Jellemzők**:
+    - **Egyenes vonalban** terjednek (nem görbülnek a Föld görbületén).
+    - **Nem verődnek vissza** a légkör rétegein.
+  - **Legnagyobb zavaró tényező**: **Akadályok** (pl. épületek, fák, hegyek).
+    - **Hatás**: **A rádiójel megszakad** → **nincs vétel az akadály mögött**.
+    - **Megoldás**: **Mindig biztosítsd a közvetlen látóvonalat** a távvezérlő és a drón között!
+
+
+### **Adatok átvitele (Data Link)**
+
+#### **WiFi-alapú kommunikáció**
+- **Frekvenciák**:
+  - **2.4 GHz** és **5.8 GHz** (szokásos drónvezérlésre és élő videóátvitelre).
+- **Előnyök**:
+  - **Nagy sávszélesség** → **sok adat átvitele** (pl. HD videó).
+- **Hátrányok**:
+  - **UHF tartomány** (Ultra High Frequency) → **korlátozott hatótávolság (~600 m)**.
+  - **Zavarok**: Más WiFi-eszközök (pl. routerek) interferenciája.
+
+#### **Alacsonyabb frekvenciák (433 MHz, 868 MHz)**
+- **Előnyök**:
+  - **Nagyobb hatótávolság**.
+- **Hátrányok**:
+  - **Kisebb sávszélesség** → **kevésbé részletes adatátvitel**.
+  - **Nagyobb antennák** szükségesek.
+
+#### **Azonosítási kód (RFID)**
+- **Cél**: **Megakadályozni**, hogy a drón **véletlenül más távvezérlőre reagáljon**.
+- **Működés**:
+  - A **küldő és vevő** **RFID-kóddal** van összekapcsolva.
+  - **Minden jelhez** egy **RFID-prefix** csatolódik → **egyértelmű azonosítás**.
+
+### **Vezérlési módok**
+
+#### **Alapvető vezérlési elv**
+- **Standardizált vezérlés**: **Két joystick** (bal és jobb).
+- **Leggyakoribb módok**:
+  - **Mode 1** (ritkábban használt, főleg hobbi pilóták által).
+  - **Mode 2** (**ipari standard**, kereskedelmi drónoknál).
+
+**Fontos**: **Ne váltogass Mode 1 és Mode 2 között** tapasztalat nélkül! **Válassz egy módot (javasolt: Mode 2)** és **maradj nála**.
+
+
+#### **A négy vezérlési csatorna**
+   **Csatorna** | **Funkció** | **Hatás a drónra** |
+ |--------------|-------------|---------------------|
+ | **Gas / Sebesség** | Minden rotor sebessége | **Emelkedés / Süllyedés** |
+ | **Yaw (Forgás)** | Balra / Jobbra forgás | **Forgás a függőleges tengely körül** |
+ | **Roll (Dőlés)** | Balra / Jobbra dőlés | **Oldalirányú mozgás** |
+ | **Pitch (Bólintás)** | Előre / Hátra dőlés | **Előre / Hátra mozgás** |
+
+### **Repülési módok**
+
+#### **1. Manuális mód (Manual Mode)**
+- **Jellemzők**:
+  - A drón **nem stabilizálja magát** (nincs automatikus korrekció).
+  - **Szél és gravitáció** hatása **látszik** (pl. sodródás, süllyedés).
+- **Fejlesztés**:
+  - **Fontos gyakorlni** (pl. erős szélben is).
+  - **Használat**: Ha **érzékelők hibáznak** (pl. GPS vesztés) → **manuális vezérlésre van szükség**.
+
+#### **2. Stabilizált mód (Stabilized Mode)**
+Két alváltozat:
+
+#### **Magasságmód (Altitude / Atti Mode)**
+- **Jellemzők**:
+  - A drón **tartja a magasságát** (automatikusan).
+  - **Szél hatására sodródik** → **pozíció nem tartódik meg**.
+
+#### **GNSS mód (GPS Mode)**
+- **Jellemzők**:
+  - **Teljes stabilizáció**: **Magasság és pozíció** tartása.
+  - **Működés**: **GNSS (GPS) adatok** alapján.
+  - **Korlátok**:
+    - **Minimum 5-6 műhold** szükséges.
+    - **Akadályok** (pl. épületek) **blokkolhatják** a jeleket → **csak magasságmód használható**.
+
+
+#### **3. Előre programozott mód (Pre-Programmed Mode)**
+- **Jellemzők**:
+  - A drón **előre meghatározott útvonalon** repül (pl. waypoint-ok szerint).
+  - **Alkalmazások**:
+    - **Topográfiai felmérés** (pontos pozicionálás, pl. 80% átfedésű felvételek).
+    - **Körrepülés** (pl. torony körül, a kamera állandóan a toronyra irányítva).
+
+
+#### **4. Automatikus mód (Automatic Mode)**
+- **Jellemzők**:
+  - **Automatikus felszállás és leszállás**.
+  - **Előre programozott repülés** (pl. waypoint-ok, automatikus felvételek).
+  - **Pilóta feladata**: **Monitorozás** (a drón állapotának figyelése).
+  - **Jogi követelmény**: **A pilótának bármikor be kell avatkoznia** (vezérlés átvétele vagy RTH aktiválása).
+
+#### **5. Teljesen autonóm mód (Fully Autonomous Mode)**
+- **Definíció**: A drón **önállóan repül és döntéseket hoz** (pilóta **nem avatkozhat be**).
+- **Jogi állapot**: **Jelenleg tilos!** A pilótának **mindig be kell avatkoznia**.
 
 ## Karbantartás
