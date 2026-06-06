@@ -1044,9 +1044,48 @@ A repülés előtt **kötelező** az alábbi kérdések **őszinte** megválaszo
 > **Szabály:**
 > *Csak akkor repülj, ha **minden kérdésre igennel válaszolhatsz**!*
 
-# Üzemeltetési eljárások
+# Műveleti eljárások
+
+A **Műveleti eljárások 1. modul** a **biztonságos repülés végrehajtásához szükséges előfeltételekkel és intézkedésekkel** foglalkozik.
 
 ## Repülés előtti felkészülés
+
+
+### **Repülés előkészítésének lényege**
+A **távvezérlő pilótának** a repülés előtt **minden elérhető információt** figyelembe kell venni a tervezett repülési útvonalról, **helyi körülményekre** odafigyelve. Ez magában foglalja:
+- **Alkalmazási terület** (pl. hol repülsz, milyen célból).
+- **Felszerelés** (drón, távvezérlő, akkumulátorok, stb.).
+- **Időjárás** (szél, csapadék, látási viszonyok).
+
+**Minél alaposabb és gondosabb az előkészítés → annál könnyebb és kockázatmentesebb lesz a repülés.**
+
+
+### **A repülés előkészítés fő területei**
+A modulban a következő **almodulok** keretében kerül sor a repülés előkészítésének részletes tárgyalására:
+
+1. **📋 Ellenőrző listák (Checklists) használata**
+   - Rendszeres feladatok (pl. előkészület, repülés, utómunka) **hibamentes végrehajtásához**.
+   - **Cél**: Mulasztások elkerülése, biztonságos folyamat biztosítása.
+
+2. **📄 Szükséges dokumentumok**
+   - **Kompetencia igazolás** (pl. A1/A3, A2 alkategóriák).
+   - **Operátor regisztráció** (kötelező 250 g feletti drónok esetén).
+   - **Felelősségbiztosítás** (javasolt, Ausztriában kötelező).
+
+3. **🌦️ NOTAM-ok és időjárás**
+   - **NOTAM (Notice To AirMen)**: Légiközlekedési figyelmeztetések (pl. tiltott zónák, katonai gyakorlatok).
+   - **Időjárás-előrejelzés**: Szél, csapadék, látási viszonyok ellenőrzése.
+
+4. **🗺️ Repülési terület (légtérrel együtt)**
+   - **Légtér ellenőrzése** (kontrollált/tiltott zónák).
+   - **Földrajzi akadályok** (pl. nagyfeszültségű vezetékek, szélkerekek).
+   - **Alternatív leszállási helyek** kijelölése.
+
+5. **🛠️ UAS berendezések**
+   - **Felszerelés állapota** (károk, szennyeződések).
+   - **Súlypont és tömeg** (MTOM – Maximum Take-Off Mass).
+   - **Beállítások ellenőrzése** (GNSS, RTH, akkumulátor).
+
 
 ## Repülés monitorozás és követés
 
