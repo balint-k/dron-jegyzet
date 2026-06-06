@@ -947,6 +947,103 @@ A személyes adatok feldolgozása **csak akkor engedélyezett**, ha legalább az
 
 ## Érzékelés
 
+
+### Bevezetés a 2. modulba
+- **Fókusz:** A **drónpilóta érzékelése**, amely **minden döntés alapja**.
+- **Témák:**
+  - Szituációs tudatosság (*Situational Awareness*)
+  - Magasság, távolság és sebesség becslése
+  - Éjszakai repülés
+
+
+### Szituációs Tudatosság (*Situational Awareness, SA*)
+A döntések meghozatalához **aktuális információk gyűjtése és értelmezése** szükséges.
+A folyamat **3 lépésből áll**:
+
+1. **Adatok gyűjtése**
+   - Pl. a drón **jelenlegi pozíciója, magassága**.
+2. **Adatok értelmezése**
+   - Pl. a pozíció **közel van-e egy repülőtérhez vagy tiltott légtérhez?**
+3. **Jövőbeli események előrejelzése**
+   - Pl. **behatolás a légtérbe** vagy **irány/vagy magasság változtatása**.
+
+> **Definíció:**
+> *A szituációs tudatosság = a "nagy kép" megértése, és a jövőbeli események valószerű előrejelzése.*
+
+### A szituációs tudatosságot befolyásoló tényezők
+   **Kategória**          | **Példák**                                                                 |
+ |------------------------|-----------------------------------------------------------------------------|
+ | **Személyes feltételek** | Fáradtság, terhelés, stressz, tapasztalat                              |
+ | **Környezeti feltételek** | Látási viszonyok, időjárás, elterelő tényezők, más repülő objektumok   |
+ | **Rendszerproblémák**   | A drón **komplexitása**, automatizáltság, ember-gép felület (pl. távirányító) |
+
+
+
+### Magasság és Távolság Becslése
+
+#### Távolság becslése
+- **Közeli tárgyak (pl. karhossznyira):** Pontos érzékelés lehetséges.
+- **Távolabbi tárgyak:**
+  - A szem **nem képes pontosan mérni** nagyobb távolságokat.
+  - **Szubjektív becslés** tapasztalaton és ismereteken alapul (pl. ismert autó méretének összehasonlítása).
+- **Drónok esete:**
+  - **Kicsi méretük** miatt **nehezen becsülhető** a távolság.
+  - **Illúziók** gyakoriak (pl. a drón **közelebb/tavolabb** tűnik, mint valójában van).
+
+#### Magasság becslése
+- **Referenciapontok használata:**
+  - Pl. **ház vagy fa** a horizonton.
+  - **Megbízható csak akkor**, ha:
+    - A referenciaobjektum **valódi mérete ismert**.
+    - A drón és a referencia **ugyanolyan távolságra vannak** a megfigyelőtől.
+  - **Figyelmeztetés:** A **látási becslés és a valóság között nagy eltérés** lehet!
+
+#### Légtérhatárok és minimumtávolságok
+- **Nehézség:** Légtérhatárok pozíciójának becslése **nehezen megvalósítható** látás alapján.
+- **Kockázat:** **Tiltott légtérbe repülés** vagy **más objektumokhoz túlságosan közel kerülés** (pl. repülők, helikopterek).
+- **Megoldás:**
+  - **Technikai eszközök használata** (pl. GPS, magasságmérő) – **bízhatsz ebben az adaton!**
+
+#### Felhők és légköri feltételek
+- **Felhők közelebe repülés:**
+  - **Ütközésveszély** (pl. ha egy ember vezette repülőgép **hirtelen előbukkan** a felhőből).
+- **Légköri feltételek hatása:**
+  - **Páratartalom, füst, por** → **távolságbecslés torzítása**.
+  - **Napfény** → **fényviszonyok változtatása**, ami **tévképzeteket** okozhat.
+
+### Sebesség Becslése
+- **Tapasztalat szerepe:** Korábbi megfigyelések (pl. rendszeres légiforgalom) segítenek a sebesség és idő becslésében.
+- **Nehézségek:**
+  - **Merőleges mozgás** (pl. a drónra nézve oldalt haladó objektumok) → **könnyebb becslés**.
+  - **Közvetlenül közeledő objektumok** (pl. propelleres vagy harci repülőgép) → **nehezebb becslés**.
+    - **Veszély:** A **repülőgép típusa** (pl. lassú vs. gyors) **nehezen azonosítható** látás alapján.
+
+### Éjszakai Repülés
+#### Sötét adaptáció
+- A szemnek **~30 perc** kell a sötéthez való alkalmazkodásához.
+- **Figyelmeztetés:** **Fényes fény elkerülése** adaptáció után (pl. zseblámpa, kijárati fény).
+
+#### Éjszakai látás befolyásoló tényezők
+ | **Tényező**               | **Hatás**                                                                 |
+ |---------------------------|---------------------------------------------------------------------------|
+ | **Fény színe**            | Zöld fény **világosabbnak** tűnik → **közelebbinek** látszik. <br> Vörös fény **sötétebbnek** tűnik → **távolabbnak** látszik. |
+ | **Szén-monoxid mérgezés** | **Dohányzás vagy kipufogógáz belélegzése** → **anémás hipoxia** → **rosszabb éjszakai látás**. |
+
+
+### I’M SAFE Ellenőrzőlista
+A repülés előtt **kötelező** az alábbi kérdések **őszinte** megválaszolása:
+ | **Betű** | **Kérdés**                                                                 | **Lehetséges kockázat**                          |
+ |----------|-----------------------------------------------------------------------------|--------------------------------------------------|
+ | **I**    | **Illness (Betegség):** Van-e tünet, ami rontja a drón irányítását?       | Csökkent teljesítmény, figyelemhiány             |
+ | **M**    | **Medication (Gyógyszerek):** Szedsz-e gyógyszert?                        | Mellékhatások (pl. álmosság)                    |
+ | **S**    | **Stress:** Stressz vagy pszichológiai nyomás alatt vagy?               | Rossz döntések, feszültség                       |
+ | **A**    | **Alcohol:** Itál alkoholt az utolsó **8-24 órában**?                     | Csökkent ítélőképesség, kockázatvállalás         |
+ | **F**    | **Fatigue (Fáradtság):** Eleget aludtál, ettél és itál?                   | Mikroalvás, csökkent figyelem                   |
+ | **E**    | **Emotion (Érzelmek):** Van-e extrém érzelmi helyzeted (pl. düh, szomorúság)? | Önkontroll vesztés, rossz döntések               |
+
+> **Szabály:**
+> *Csak akkor repülj, ha **minden kérdésre igennel válaszolhatsz**!*
+
 # Üzemeltetési eljárások
 
 ## Repülés előtti felkészülés
