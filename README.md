@@ -1089,6 +1089,122 @@ A modulban a következő **almodulok** keretében kerül sor a repülés előké
 
 ## Repülés monitorozás és követés
 
+###  **Utolsó ellenőrzések**
+- **Légtér és környezet** végső áttekintése.
+- **Ha minden biztonságos → felszállás engedélyezett.**
+
+###  **Felszállás sorrendje**
+1. **Távvezérlő bekapcsolása**
+2. **UAS (drón) bekapcsolása**
+3. **Egyéb felszerelések** (pl. kamera, telemetria) bekapcsolása
+
+###  **Felszállási felület választása**
+- **Sík és stabil felület** (pl. asztal, felszálló platform).
+- **Szárnyas drónok**: **Hosszú, akadálymentes felszállópálya** szükséges.
+
+###  **2 méter magasságban történő ellenőrzések**
+- **Távvezérlő összes funkciójának tesztelése** (irányítás, telemetria, hasznos terhelés).
+- **Helyes üzemmód beállítása** (pl. GPS, manuális).
+- **Ha minden rendben → repülés a kijelölt helyre.**
+
+
+###  **Normál repülési eljárások**
+
+####  **Akkumulátor állapota**
+- **Lesülési görbe**:
+  - **Gyors lesülés** → lassabb lesülés → **gyorsabb lesülés**.
+- **Kockázat**: **Hamis biztonságérzet** a lassú lesülési szakaszban.
+- **Javaslat**:
+  - **Legalább minden percben ellenőrizd** az akkumulátor szintjét.
+  - **Ne repülj addig, amíg az akkumulátor majdnem üres!**
+  - **Tartalék idővel szállj le!**
+
+#### **UAS megfigyelése**
+- **Ne nézz hosszú ideig a távvezérlő kijelzőjére!**
+  - **Veszély**: Elveszíted a drónodat a látómeződből.
+  - **Ütközési kockázat** (pl. nagyfeszültségű vezetékek nem látszanak a kollíziókerülő rendszerek számára).
+- **Légtér megfigyelése**:
+  - **Mannéd légijárművek** (pl. helikopterek) **gyorsan mozoghatnak** → **ütközési veszély!**
+  - **Javaslat**: **Kétfős csapat** (egy figyeli a drónt, a másik a légteret és környezetet).
+
+#### **Kommunikáció a környezettel**
+- **Ne engedd, hogy eltereljék a figyelmedet!**
+  - **Példa**: Járókelők kérdései.
+  - **Megoldás**:
+    - **Kérd a beszélgetést a leszállás utánra.**
+    - **Ha kétfős csapatban vagy**: Egyik beszélget, a másik repül.
+
+#### **Magasságkorlát**
+- **GM1 UAS.OPEN.010 szerint**: **Maximálisan 120 méter (400 láb)** a talaj felett.
+
+
+### **Kockázatok**
+
+#### **Fő kockázati területek**
+1. **Földi kockázat**:
+   - **Drón ütközése emberekkel vagy tárgyakkal a földön.**
+   - **Statisztika**: A legtöbb baleset **technikai hiba** miatt történik.
+   - **Javaslat**: **Kerüld a emberek és érzékeny területek felett való repülést!**
+
+2. **Légi kockázat**:
+   - **Ütközés más légijárművekkel** (pl. repülőgépek, helikopterek).
+   - **Legnagyobb veszély**: **Alacsonyan repülő helikopterek** (pl. rendőrség, mentőszolgálat).
+   - **Javaslat**:
+     - **Ne repülj balesetek, zavargások vagy tűz közelében!**
+     - **Ha más légijármű közeledik → távolodj és szállj le!**
+
+#### **Vészhelyzeti eljárás**
+- **Ha a drón veszélyt jelent másokra → azonnal szüntesd meg a repülést és térj vissza biztonságosan!**
+
+### **Utómunka (Repülés után)**
+
+#### **Kár és szennyeződés ellenőrzése**
+- **Minden repülés után ellenőrizd**:
+  - **Propellerek** (károk, repedések).
+  - **Akkumulátorok** (sérülések, duzzadások).
+- **Tisztítás**: **Távolítsd el a szennyeződéseket** a drónról.
+
+#### **Akkumulátorok kezelése**
+- **Repülés után**:
+  - **Távolítsd el az akkumulátorokat** a drónból.
+  - **Tárolás**: **Sötét, 15–25°C-os helyen**.
+  - **Ne töltsd tovább a teljesen feltöltött akkumulátorokat!**
+  - **Hosszú tétlenség esetén**: **Részlegesen süllyesd le** a gyártó útmutatója szerint.
+- **Sérült akkumulátorok**:
+  - **Tilos használni!**
+  - **Szakmai úton ártalmatlanítsd!**
+
+#### **Adatok mentése**
+- **Repülési adatok rögzítése**:
+  - **Dátum**
+  - **Felszállási és leszállási hely**
+  - **Felszállási és leszállási idő**
+  - **Repülési útvonal (waypoint-okkal)**
+  - **Repülési magasságok**
+- **Tárolás**: **Külső adathordozón (pl. USB, felhő)** – **több példányban!**
+
+### **Dokumentáció**
+
+#### **Repülési napló**
+- **Nincs kötelező a nyílt kategóriában**, de **erősen ajánlott!**
+- **Előnyei**:
+  - **Karbantartás tervezése**.
+  - **Alkatrészek élettartamának nyomon követése**.
+  - **Repülések visszakövethetősége**.
+
+#### **Adatok rögzítése**
+- **Dátum**
+- **Drón típusa és további információk**
+- **Repülési hely és célja**
+- **Felszállási/leszállási idő és repülési időtartam**
+- **Felszállások és leszállások száma**
+- **Különleges incidensek**
+- **Javítások vagy károk**
+
+#### **Karbantartási napló**
+- **Különleges incidensek, károk és javítások rögzítése**.
+- **Előny**: **Gyorsan azonosíthatók a cserélendő alkatrészek**.
+
 ## Nem tervezett eljárások
 
 # Műszaki alapok
