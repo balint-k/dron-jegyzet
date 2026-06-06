@@ -1205,7 +1205,110 @@ A modulban a következő **almodulok** keretében kerül sor a repülés előké
 - **Különleges incidensek, károk és javítások rögzítése**.
 - **Előny**: **Gyorsan azonosíthatók a cserélendő alkatrészek**.
 
-## Nem tervezett eljárások
+## **"Abnormal" (Rendkívüli) helyzetek**
+
+###  **Definíció**
+- **Rendkívüli helyzet**: **Tervezettnél más** helyzet, ahol a **távvezérlő pilóta korlátozva van** (pl. műszaki vagy üzemeltetési problémák).
+- **Különbség a vészhelyzettől**:
+  - **Nincs közvetlen veszély** emberekre.
+  - **A repülést nem lehet folytatni** a tervek szerint → **leszállás vagy visszatérés szükséges**.
+
+###  **Példák rendkívüli helyzetekre**
+- **Váratlanul emberek repülés alatti átlépése** (nem résztvevők).
+- **Hirtelen időjárás-romlás** (pl. vihar, erős szél).
+- **Akkumulátor gyorsabb lesülése** a vártnál.
+- **Szokatlan, de irányítható repülési viselkedés** (pl. drón önálló mozgása).
+
+###  **Előkészülés és megelőzés**
+- **Gyakorlás**: **Előre átgondolni** a lehetséges helyzeteket és **gyakorolni** a megoldásokat.
+- **Checklist használata**: **Készíts "B tervet"** és **gyakorold** a vészhelyzeti eljárásokat.
+- **Drón kézikönyve**: **Gyártóspecifikus eljárások** megnézése (pl. RTH beállítások).
+
+
+### 🚨 **Vészhelyzeti eljárások**
+
+####  **Kényszerleszállás vs. Biztonsági leszállás**
+   **Kényszerleszállás** | **Biztonsági leszállás** |
+ |-----------------------|--------------------------|
+ | **Kényszerű** (pl. motorhiba, propeller sérülés). | **Tervezett** (pl. időjárás-romlás, érzékelő hiba). |
+ | **Korlátozott döntési lehetőségek** → **gyors cselekvés szükséges**. | **Több idő a döntésre** → **nincs súlyos műszaki hiba**. |
+ | **Példák**: Motorleállás, propeller sérülés. | **Példák**: Érzékelő hiba, rossz időjárás. |
+
+#### **Vészhelyzeti megoldások**
+1. **Kézi vezérlésre váltás** (ha a drón lehetővé teszi).
+2. **"Return To Home" (RTH) manőver**:
+   - **Automatikusan** vagy **kézi aktiválással**.
+   - **Fontos**: **RTH magasság beállítása** (pl. fák felett).
+   - **Példák RTH aktiválására**:
+     - Kritikus akkumulátor szint.
+     - Rádiójel vesztése.
+     - Távvezérlő problémák.
+   - **Figyelmeztetés**: **Mindig legyél képes beavatkozni** a manőverbe!
+
+3. **Ütközési kockázat kezelése**
+   - **Ha más légijármű (pl. helikopter, léghajó, sportrepülő) közeledik**:
+     - **Feltételezd, hogy nem látnak!**
+     - **Azonnal távolodj** vagy **végezz biztonsági leszállást!**
+     - **Alternatíva**: **Alacsonyan lebegtetés** (akadályok és emberek figyelembevételével).
+     - **Szárnyas drónok**: **Biztonságos magasságon körözés**.
+
+
+###  **GNSS vagy iránytű hiba**
+
+#### **Probléma**
+- **GNSS jelvesztés** vagy **iránytű hiba** → **drón furcsa viselkedése** (pl. körözés, irányítatlan repülés).
+- **Okok**:
+  - **Hegyek, városi szurdokok, erdők** → **műholdjelek árnyékolása**.
+  - **Nagy akadályok** (pl. épületek) mögötti repülés.
+
+#### **Megoldások**
+- **RTH nem működik** (a drón nem találja a kiindulási pontot).
+- **Váltás kézi vagy stabilizált magasságmódra**:
+  - **Figyelmeztetés**: **Szél azonnal elragadhatja a drónt!**
+  - **Lehetőségek**:
+    - **Kézi visszatérés**.
+    - **Azonnali leszállás**.
+
+- **Javaslat**: **Gyakorold a kézi vezérlést!** (kötelező profi pilótáknak, de **mindenkinek ajánlott**).
+
+### **Kritikus időjárási feltételek**
+
+#### **Alacsony hőmérséklet (0°C alatti)**
+- **Akkumulátor kapacitás csökkenése** → **rövidebb repülési idő**.
+- **Jégképződés** (propellereken, szárnyakon) → **aerodinamika romlása** → **balesetveszély!**
+- **Javaslat**:
+  - **Tesztrepülés után ellenőrizd** a propellereket/szárnyakat jégre.
+  - **Ha kételkedsz → ne repülj!**
+
+#### **Erős szél és szélrohamok**
+- **Szélrohamok**: **Hirtelen és erős** → **vezérlés nehezítése**.
+- **Javaslat**:
+  - **Időben szállj le**, mielőtt a szél túlságosan erős lesz!
+  - **Ne repülj objektumok közelében** (ütközési veszély).
+  - **Nyári zivatarok**: **"Gust roller"** (erős turbulencia a zivatar előtt).
+
+
+### **Látómező vesztése / "Fly-away"**
+
+#### **Látómező vesztése**
+- **Azonnal aktiváld az RTH módot!** (a legtöbb drón automatikusan visszatér a kiindulási pontra rádiójel vesztés esetén).
+- **Ha a drón irányítatlanul repül ("Fly-away")**:
+  - **Azonnal aktiváld az RTH-t!**
+  - **Ha lehetséges → azonnal szállj le!** (ha senkit sem veszélyeztetsz).
+
+#### **Repülőtér közelében**
+- **Ha a drón a repülőtér irányába sodródik**:
+  - **Azonnal értesítsd a légiforgalmi irányítást!**
+  - **Közöld**:
+    - **Hány perc akkumulátorod van még?**
+    - **Drón iránya és magassága.**
+
+### **Baleset (Crash)**
+
+#### **A baleset után**
+- **Figyelmeztesd a környező embereket** a zuhanás veszélyére!
+- **Mentsd ki a memóriakártyát** a repülési adatokért (ok feltárása).
+- **Értesítsd a hatóságokat** (jövőbeli balesetek megelőzése érdekében).
 
 # Műszaki alapok
 
