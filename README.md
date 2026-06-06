@@ -1656,3 +1656,68 @@ Két alváltozat:
 - **Jogi állapot**: **Jelenleg tilos!** A pilótának **mindig be kell avatkoznia**.
 
 ## Karbantartás
+
+###  **Fontos figyelmeztetések**
+- **Elektronikai rendszerek**: A drónok **sok elektronikát** tartalmaznak → **csak szakember nyithatja fel**!
+- **Külső karbantartás**: **Erősen ajánlott** (pl. tisztítás, vizuális ellenőrzés).
+- **Bármilyen változtatás után** (hardver, firmware, szoftver):
+  - **Kötelező tesztrepülés** biztonságos környezetben.
+  - **Minden funkció és repülési mód ellenőrzése**.
+
+- **Javítások**:
+  - **Csak propellerek cseréje** és **felszíni beavatkozások** engedélyezettek **saját kezelésre**.
+  - **Komolyabb javítások**: **Szakmai javítócég** bevonása kötelező!
+  - **Mindig kövesd a gyártó útmutatóit** és a drón kézikönyvének előírásait!
+
+
+### **Karbantartási ütemezés**
+
+#### **Javasolt karbantartási időpontok**
+   **Időpont** | **Típus** | **Leírás** |
+ |-------------|-----------|------------|
+ | **25 repülési óra után** | **Saját ellenőrzés** | Alapvető karbantartás (tisztítás, vizuális ellenőrzés). |
+ | **50 repülési óra után** | **Szakmai karbantartás** | Gyártó útmutatója szerint (ha nincs más információ). |
+
+
+### **25 repülési óra után ajánlott ellenőrzések**
+
+#### **Szerkezeti ellenőrzések**
+1. **Tisztítás**:
+   - A drón **külső felületének** letörlése (por, sár, szennyeződések eltávolítása).
+2. **Repedések ellenőrzése**:
+   - **Nagyítóval** vizsgáld a **testet, propellereket, és alkatrészeket** repedések, sérülések miatt.
+3. **Csavarok szorítása**:
+   - **Minden látható csavar** utánszorítása (lazulás elkerülése).
+4. **Motorok ellenőrzése**:
+   - **Kézi forgatás**: Minden motor **simán forogjon** (ellenállás nélkül).
+   - **Ha szennyeződés van**: **Erősen fújd ki** a motort (pl. sűrített levegővel).
+5. **Propellerek állapota**:
+   - **Repedések, sérülések** ellenőrzése.
+   - **Sérült propellerek azonnal cserélendők!**
+6. **Antennák rögzítése**:
+   - **Minden antenna** (drónon és földi állomáson) **szilárdan rögzítve** van-e?
+
+
+#### **Hardver és szoftver ellenőrzések**
+1. **Szoftverfrissítések**:
+   - **Ellenőrizd**, hogy van-e **új szoftververzió** a drónhoz és a földi állomáshoz.
+   - **Frissíts**, ha szükséges!
+2. **Firmware ellenőrzése**:
+   - **Gyártó által javasolt verzió** van-e feltöltve?
+
+#### **Akkumulátor teszt**
+1. **Külső sérülések**:
+   - **Repedések, duzzadások, foltok** ellenőrzése.
+2. **Szivárgás**:
+   - **Elektrolit szivárgás** jelei (pl. fehér vagy zöldes nyomot).
+3. **Cserélés**:
+   - **Ha bármilyen sérülés vagy szivárgás** észlelhető → **azonnali cserélés kötelező!**
+
+### **Karbantartási napló**
+- **Professionális pilóták** **kötelezően vezetnek** karbantartási naplót **minden drónra**.
+- **Tartalma**:
+  - **Dátum** (karbantartás ideje).
+  - **Végzett munkák** (pl. tisztítás, csavar utánszorítás).
+  - **Ellenőrzések** (pl. motorok, propellerek, antennák).
+  - **Cserélt alkatrészek** (pl. propellerek, akkumulátorok).
+  - **Szoftverfrissítések**.
