@@ -1314,6 +1314,89 @@ A modulban a következő **almodulok** keretében kerül sor a repülés előké
 
 ## Repüléstechnikai alapok
 
+
+###  **A levegő szerepe**
+- A **levegő nem "semmi"** – **légnyomás, áramlás és felhajtóerő** teszi lehetővé a repülést.
+- A **Föld gravitációja** mellett **kizárólag a levegő erők** hatnak a drónra:
+  - **Felhajtóerő** (lift)
+  - **Súlyerő** (weight)
+  - **Hajtóerő** (thrust)
+  - **Ellenállóerő** (drag)
+
+
+### **Légierők a szárnyprofilon**
+
+#### **Szárny és rotorlapát hasonlósága**
+- A **szárny** és a **rotorlapát** **hasonló keresztmetszetűek** → a rotorlapát **kicsinyített szárny**.
+- **Tipikus szárnyprofil**:
+  - **Elülső él**: lekerekített.
+  - **Hátulsó él**: hegyes.
+
+#### **Négy alapvető erő a repülés alatt**
+   **Erő**          | **Irány**       | **Leírás**                                                                 |
+ |------------------|-----------------|----------------------------------------------------------------------------|
+ | **Felhajtóerő**  | Felfelé         | Emeli a szárnyat.                                                          |
+ | **Súlyerő**      | Lefelé          | A Föld gravitációja (a drón tömege).                                      |
+ | **Hajtóerő**     | Előre           | Szükséges a **levegőáramlás** fenntartásához (pl. propeller forgás).     |
+ | **Ellenállóerő** | Hátra           | Lassítja az előrehaladást.                                                |
+
+#### **Egyensúlyi állapot (horizontális repülés)**
+- **Nincs gyorsulás** → **minden erő egyensúlyban van**.
+- **Ha az egyensúly megbomlik** (szándékosan vagy véletlenül):
+  - A drón **emelkedik** vagy **süllyed**.
+  - A drón **gyorsul** vagy **lassul**.
+
+
+### **Felhajtóerő (Lift) mélyebb magyarázata**
+
+#### **Mi okozza a felhajtóerőt?**
+1. **Szárny ferdesége (Angle of Attack – AoA)**:
+   - A szárny **dőlt helyzetben** van a levegőáramláshoz képest.
+   - **Példa**: Nyújtott kéz a kocsi ablakán:
+     - **Síkon tartva** (hüvelykujj az utazási irányba) → **nincs felhajtóerő**.
+     - **Ferdesen tartva** (hüvelykujj felfelé) → **érzékelhető felhajtóerő**.
+
+2. **Nyomáskülönbség**:
+   - A szárny **felső felületén** a levegő **gyorsabban áramlik** → **alacsonyabb nyomás**.
+   - A szárny **alsó felületén** a levegő **lassabban áramlik** → **magasabb nyomás**.
+   - **Eredmény**: **Felfelé irányuló erő** (felhajtóerő).
+
+3. **Áramlási sebesség**:
+   - **Minél gyorsabb az áramlás** → **minél nagyobb a felhajtóerő**.
+   - **Propelleres drónok**: **Forgási sebesség növelése** → **felhajtóerő nő**.
+
+
+### **Mozgási irányok és tengelyek**
+
+#### **Három fő tengely**
+ | **Tengely**       | **Irány**               | **Mozgás neve** | **Angol megnevezés** |
+ |-------------------|-------------------------|-----------------|----------------------|
+ | **Hosszútengely**  | Orr → Farok            | **Dőlés**       | Roll                 |
+ | **Kereszttengely** | Bal → Jobb             | **Bólintás**    | Pitch                |
+ | **Függőleges tengely** | Fent → Lent      | **Forgás**      | Yaw                  |
+
+- **Többrotoros drónok**: **Szimmetrikus felépítés** → **elülső irány jelölése** (pl. LED fény).
+
+#### **Mozgások vezérlése többrotoros drónoknál**
+- **Magasság változtatása**: **Minden propeller forgási sebességének együttes növelése/csökkentése**.
+- **Forgás a függőleges tengely körül**: **Ellentétes propellerek sebességének aszimmetrikus változtatása**.
+- **Oldalirányú mozgás**: **Aszimmetrikus propeller sebességváltoztatás** (pl. jobbra mozgás: 1 és 3 propellerek sebességének növelése, 2 és 4 csökkentése).
+
+### **Mozgások a repülés során**
+
+#### **Három alapvető mozgásirány**
+1. **Felfelé és lefelé** (emelkedés/süllyedés):
+   - **Emelkedés**: **Felhajtóerő > Súlyerő** (propellerek gyorsítása).
+   - **Süllyedés**: **Felhajtóerő < Súlyerő** (propellerek lassítása).
+
+2. **Forgás a saját tengely körül** (yaw):
+   - **Példa**: Ha a **1. és 4. propeller gyorsabban forog**, mint a **2. és 3.** → **óramutató járásával ellentétes forgás**.
+   - **Fontos**: **Ellentétes propellerek forgási iránya** (pl. 1 és 3 egy irányba, 2 és 4 a másikba) → **elkerüli a spontán forgást**.
+
+3. **Oldalirányú, előre/hátra mozgás** (pitch/roll):
+   - **Oldalra mozgás**: **Aszimmetrikus propeller sebesség** (pl. jobbra: 1 és 3 gyorsabb, 2 és 4 lassabb).
+   - **Előre/hátra mozgás**: **Dőlés (roll) vagy bólintás (pitch)** vezérlésével.
+
 ## Felépítés és korlátai
 
 ## Adatgyűjtés és repülési módok
